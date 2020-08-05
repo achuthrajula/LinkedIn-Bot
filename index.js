@@ -27,14 +27,6 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
       // 'https://www.linkedin.com/in/surendra-bharath-palle-329167102/'
     ]
 
-    let companies = [
-        'https://www.linkedin.com/company/twitter/',
-        'https://www.linkedin.com/company/google/',
-        'https://www.linkedin.com/company/microsoft/',
-        'https://www.linkedin.com/company/facebook/',
-        'https://www.linkedin.com/company/linkedin/',
-        'https://www.linkedin.com/company/instagram/'
-    ]
   try {
     await driver.get('https://www.linkedin.com/home');
     await driver.findElement(By.className('nav__button-secondary')).sendKeys(Key.RETURN);
@@ -45,8 +37,6 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
     // // search bar
     // await driver.findElement(By.className('search-global-typeahead__input always-show-placeholder')).sendKeys('Achuth Rajula', Key.RETURN);
     // await driver.findElement(By.className('follow org-company-follow-button org-top-card-primary-actions__action artdeco-button ember-view')).sendKeys(Key.RETURN)
-    // await driver.sendKeys('Hi').then(() => {}).catch((e) => console.log(e));
-    // await driver.findElement(By.className('msg-form__send-button artdeco-button artdeco-button--1')).sendKeys(Key.RETURN);
   } finally {
     // await driver.quit();
     function delay() {
@@ -66,8 +56,10 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
       // proceed to connect with a message
       await driver.findElement(By.className('mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view')).sendKeys(Key.RETURN)
       await delay();
+      // select the text area and write your message here
       await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver', Key.RETURN);
       await delay();
+      // send message button
       await driver.findElement(By.className('ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view')).sendKeys(Key.RETURN)
     }
     async function processArray(array) {
