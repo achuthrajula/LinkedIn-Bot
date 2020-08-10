@@ -1,1122 +1,1053 @@
-<html>
-   <head>
-    <title>Download Sample Videos / Dummy Videos For Demo Use</title>
-    <meta name="keywords" content="download sample clip, free clip download, download demo clip, download demo video, download dummy video, download video, download sample video, download video for developer, download mp4 video, download flv video, download mkv video"/>
-    <meta name="description" content="Download sample video or test video for your testing purpose. We provides you different types of video formats with different size." />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-    <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-5312069872513739",
-        enable_page_level_ads: true
-      });
-    </script>-->
-
-
-<link rel="icon" href="images/imgb.png">
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
-          <!--  <span class="sr-only">Toggle navigation</span>-->
-          <!--  <span class="icon-bar"></span>-->
-          <!--  <span class="icon-bar"></span>-->
-          <!--  <span class="icon-bar"></span>-->
-          <!--</button>-->
-          <a class="navbar-brand" href="http://www.sample-videos.com"> <img src="images/imgw.png" style="width: 25px;display: inline-block;"> Sample Videos</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <!--<li class="active"><a href="#">Home</a></li>-->
-            <!--<li class="dropdown">-->
-            <!--  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
-            <!--  <ul class="dropdown-menu">-->
-            <!--    <li><a href="#">Action</a></li>-->
-            <!--    <li><a href="#">Another action</a></li>-->
-            <!--    <li><a href="#">Something else here</a></li>-->
-            <!--    <li><a href="#">Separated link</a></li>-->
-            <!--    <li><a href="#">One more separated link</a></li>-->
-            <!--  </ul>-->
-            <!--</li>-->
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-    <div style="height: 65px;"></div>
-    
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <div class="">
-          <div class="col-md-12" style="margin-bottom: 12px;">
-            <!-- slab 1 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-5312069872513739"
-                 data-ad-slot="6771898276"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-        </div>
-        <div class="clearfix" style="margin-top:50px;"></div>
-        <div class="container">
-	 <!--<a id="current_downloading_video" href="" style="display: none;" download="">Sample Video</a>-->
-         <div class="row">
-            <style>
-    .sidebar li img{
-        width: 28px;
-        margin-right: 5px;
-    }
-    
-    .sidebar ul a{
-        vertical-align: middle;
-        color: #292D2F;
-    }
-    
-    .push-counter-image1{
-        /*position: absolute;
-        top: 40px;
-        left: 40px;
-        width: 0; 
-        height: 0;
-        border-style: solid;
-        border-width: 75px;
-        border-color: red blue green orange;*/
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
-        transition-property: transform;
-        transition-duration: 1s;
-    }
-
-.push-counter-image:hover {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    animation-name: rotate; 
-    animation-duration: 1s; 
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
-}
-
-@-moz-keyframes rotate {
-    from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
-}
-
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-}
-
-.sidebar li .active-link{
-    width: 18px;
-    margin-right: -2px;
-    vertical-align: middle;
-    margin-top: 5px;
-}
-
-.blink_me {
-    -webkit-animation-name: blinker;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-    
-    animation-name: blinker;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@-moz-keyframes blinker {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes blinker {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@keyframes blinker {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-</style>
-
-<div class="col-md-3 left fixed">
-    <div class="sidebar">
-        <h5><strong style="font-size: 16px;">Sample Videos</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="active" href="index.php#sample-mp4-video">MP4</a></li>
-            <li><a class="page-scroll" href="index.php#sample-flv-video">FLV</a></li>
-            <li><a class="page-scroll" href="index.php#sample-mkv-video">MKV</a></li>
-            <li><a class="page-scroll" href="index.php#sample-3gp-video">3GP</a></li>
-        </ul>
-        <h5><strong style="font-size: 16px;">Sample Images</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="download-sample-jpg-image.php">JPG</a></li>
-            <li><a class="" href="download-sample-png-image.php">PNG</a></li>
-            <li><a class="" href="download-sample-gif-image.php">GIF</a> <span class="blink_me" style="color:red;">( New )</span></li>
-            <li><a class="" href="download-sample-svg-image.php">SVG</a> <span class="blink_me" style="color:red;">( New )</span></li>
-            <li><a class="" href="download-any-resolution-image.php">Any resolution image</a></li>
-            
-        </ul>
-        <h5><strong style="font-size: 16px;">Sample Audio</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="download-sample-audio.php">MP3</a></li>
-        </ul>
-        <h5><strong style="font-size: 16px;">Sample Text</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="sample-text.php">Text</a></li>
-        </ul>
-        <h5><strong style="font-size: 16px;">Sample Files</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="download-sample-xls.php">Sample XLS</a></li>
-            <li><a class="" href="download-sample-csv.php">Sample CSV</a></li>
-            <li><a class="" href="download-sample-doc-file.php">Sample Doc File</a></li>
-            <li><a class="" href="download-sample-sql.php">Sample SQL</a></li>
-            <li><a class="" href="download-sample-ppt.php">Sample PPT</a></li>
-            <li><a class="" href="download-sample-pdf.php">Sample PDF</a></li>
-            <li><a class="" href="download-sample-text-file.php">Sample Text File</a></li>
-            <li><a class="" href="download-sample-zip.php">Sample ZIP</a> <span class="blink_me" style="color:red;">( New )</span></li>
-            <li><a class="" href="download-sample-psd.php">Sample PSD</a> <span class="blink_me" style="color:red;">( New )</span></li>
-            <li><a class="" href="download-sample-dxf.php">Sample DXF</a> <span class="blink_me" style="color:red;">( New )</span></li>
-            
-        </ul>
-        
-        <h5><strong style="font-size: 16px;">Other Services</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="online-timestamp-convert/index.php">Date - timestamp Converter <span class="blink_me" style="color:red;">( New )</span></a></li>
-        </ul>
-        
-        <h5><strong style="font-size: 16px;">Other Pages</strong></h5>
-        <ul style="list-style: none;padding-left: 20px;">
-            <li><a class="" href="contact.php">Get In Touch</a></li>
-            <li><a class="" href="about.php">About</a></li>
-        </ul>
-        <!-- slab 7 left sidebar -->
-    </div>
-    <br>
-    <ins class="adsbygoogle"
-             style="display:inline-block;width:300px;height:600px"
-             data-ad-client="ca-pub-5312069872513739"
-             data-ad-slot="5770094174"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-</div>
-
-            <div class="col-md-6 mid-content">
-	       <div style="clear: both;"></div>
-    <br>
-
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/nQUibyxOx2c" frameborder="0" allowfullscreen></iframe>-->
-
-    <br>
-                
-               <h1 style="margin-top: 0px;"><strong>Download Sample Videos</strong></h1>
-	       
-               <p>Are you a mobile app developer?</p>
-               <p>Are you looking for videos of different resolution and sizes to test while designing or developing a mobile app?</p>
-	       <p>Sample-Videos.com is a 100% FREE service that allows programmers, testers, designers, developers to download sample videos for demo/test use. No matter what video format they use (MP4, FLV, MKV, 3GP); they will be able to test videos on any Smartphone without any hustle. This is a one stop destination for all sample video testing needs. Just search below for the relevant video formats in specific sizes, download them, and start testing.</p>
-	       <p>A mobile screen resolution can be a big challenge when it comes to watching videos online or offline. By testing out videos one can be rest assured regarding the video playback in an app, without annoying the end users. Choose from four different video extensions i.e. 3GP, MKV, FLV, and MP4. The best thing is all of these are free and very easy to download. We provide you with a specific and perfect resolution in all sizes possible with just one simple click. Check out the one which suits your requirements. All you need to do is hit the DOWNLOAD button, and get started.</p>
-	       <ins class="adsbygoogle"
-                    style="display:block; text-align:center;"
-                    data-ad-format="fluid"
-                    data-ad-layout="in-article"
-                    data-ad-client="ca-pub-5312069872513739"
-                    data-ad-slot="2057206768"></ins>
-               <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-               </script>
-               <hr>
-	       <h4>Download .mp4 Sample Video</h4>
-               
-	       <div class="push-form" id="sample-mp4-video">
-		     <table class="table">
-			 <thead>
-			     <tr>
-				 <!--<th>Title</th>-->
-				 <th>Size(mb)</th>
-				 <th>Format</th>
-				 <th>Resolution</th>
-				 <th>One Click Download</th>
-			     </tr>
-			 </thead>
-			 <tbody>
-                            <tr><td>1</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=126 class='download_video' data=126 href=video123/mp4/720/big_buck_bunny_720p_1mb.mp4 download=SampleVideo_1280x720_1mb.mp4>Click</a></td></tr><tr><td>2</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=127 class='download_video' data=127 href=video123/mp4/720/big_buck_bunny_720p_2mb.mp4 download=SampleVideo_1280x720_2mb.mp4>Click</a></td></tr><tr><td>5</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=128 class='download_video' data=128 href=video123/mp4/720/big_buck_bunny_720p_5mb.mp4 download=SampleVideo_1280x720_5mb.mp4>Click</a></td></tr><tr><td>10</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=129 class='download_video' data=129 href=video123/mp4/720/big_buck_bunny_720p_10mb.mp4 download=SampleVideo_1280x720_10mb.mp4>Click</a></td></tr><tr>
-                                                <td colspan="4">
-                                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                                    <ins class="adsbygoogle"
-                                                         style="display:block"
-                                                         data-ad-format="fluid"
-                                                         data-ad-layout="image-side"
-                                                         data-ad-layout-key="-fg+5r+6l-ft+4e"
-                                                         data-ad-client="ca-pub-5312069872513739"
-                                                         data-ad-slot="5206114282"></ins>
-                                                    <script>
-                                                         (adsbygoogle = window.adsbygoogle || []).push({});
-                                                    </script>
-                                                </td>
-                                            </tr><tr><td>20</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=130 class='download_video' data=130 href=video123/mp4/720/big_buck_bunny_720p_20mb.mp4 download=SampleVideo_1280x720_20mb.mp4>Click</a></td></tr><tr><td>30</td><td>mp4</td><td>1280x720</td><td><a user_id= same_configuration_id=131 class='download_video' data=131 href=video123/mp4/720/big_buck_bunny_720p_30mb.mp4 download=SampleVideo_1280x720_30mb.mp4>Click</a></td></tr><tr><td>1</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=133 class='download_video' data=133 href=video123/mp4/480/big_buck_bunny_480p_1mb.mp4 download=SampleVideo_720x480_1mb.mp4>Click</a></td></tr><tr><td>2</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=134 class='download_video' data=134 href=video123/mp4/480/big_buck_bunny_480p_2mb.mp4 download=SampleVideo_720x480_2mb.mp4>Click</a></td></tr><tr><td>5</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=135 class='download_video' data=135 href=video123/mp4/480/big_buck_bunny_480p_5mb.mp4 download=SampleVideo_720x480_5mb.mp4>Click</a></td></tr><tr><td>10</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=136 class='download_video' data=136 href=video123/mp4/480/big_buck_bunny_480p_10mb.mp4 download=SampleVideo_720x480_10mb.mp4>Click</a></td></tr><tr><td>20</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=137 class='download_video' data=137 href=video123/mp4/480/big_buck_bunny_480p_20mb.mp4 download=SampleVideo_720x480_20mb.mp4>Click</a></td></tr><tr><td>30</td><td>mp4</td><td>720x480</td><td><a user_id= same_configuration_id=138 class='download_video' data=138 href=video123/mp4/480/big_buck_bunny_480p_30mb.mp4 download=SampleVideo_720x480_30mb.mp4>Click</a></td></tr><tr><td>1</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=140 class='download_video' data=140 href=video123/mp4/360/big_buck_bunny_360p_1mb.mp4 download=SampleVideo_640x360_1mb.mp4>Click</a></td></tr><tr><td>2</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=141 class='download_video' data=141 href=video123/mp4/360/big_buck_bunny_360p_2mb.mp4 download=SampleVideo_640x360_2mb.mp4>Click</a></td></tr><tr><td>5</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=142 class='download_video' data=142 href=video123/mp4/360/big_buck_bunny_360p_5mb.mp4 download=SampleVideo_640x360_5mb.mp4>Click</a></td></tr><tr><td>10</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=143 class='download_video' data=143 href=video123/mp4/360/big_buck_bunny_360p_10mb.mp4 download=SampleVideo_640x360_10mb.mp4>Click</a></td></tr><tr><td>20</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=144 class='download_video' data=144 href=video123/mp4/360/big_buck_bunny_360p_20mb.mp4 download=SampleVideo_640x360_20mb.mp4>Click</a></td></tr><tr><td>30</td><td>mp4</td><td>640x360</td><td><a user_id= same_configuration_id=145 class='download_video' data=145 href=video123/mp4/360/big_buck_bunny_360p_30mb.mp4 download=SampleVideo_640x360_30mb.mp4>Click</a></td></tr><tr><td>1</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=147 class='download_video' data=147 href=video123/mp4/240/big_buck_bunny_240p_1mb.mp4 download=SampleVideo_360x240_1mb.mp4>Click</a></td></tr><tr><td>2</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=148 class='download_video' data=148 href=video123/mp4/240/big_buck_bunny_240p_2mb.mp4 download=SampleVideo_360x240_2mb.mp4>Click</a></td></tr><tr><td>5</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=149 class='download_video' data=149 href=video123/mp4/240/big_buck_bunny_240p_5mb.mp4 download=SampleVideo_360x240_5mb.mp4>Click</a></td></tr><tr><td>10</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=150 class='download_video' data=150 href=video123/mp4/240/big_buck_bunny_240p_10mb.mp4 download=SampleVideo_360x240_10mb.mp4>Click</a></td></tr><tr><td>20</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=151 class='download_video' data=151 href=video123/mp4/240/big_buck_bunny_240p_20mb.mp4 download=SampleVideo_360x240_20mb.mp4>Click</a></td></tr><tr><td>30</td><td>mp4</td><td>360x240</td><td><a user_id= same_configuration_id=152 class='download_video' data=152 href=video123/mp4/240/big_buck_bunny_240p_30mb.mp4 download=SampleVideo_360x240_30mb.mp4>Click</a></td></tr>			 </tbody>
-		     </table>
-	       
-	       </div>
-	       
-	       <div class="clear-fix"></div>
-	       <hr>
-               
-	       <h4>Download .flv Sample Video</h4>
-	       <div class="push-form" id="sample-flv-video">
-		     <table class="table">
-			 <thead>
-			     <tr>
-				 <!--<th>Title</th>-->
-				 <th>Size(mb)</th>
-				 <th>Format</th>
-				 <th>Resolution</th>
-				 <th>One Click Download</th>
-			     </tr>
-			 </thead>
-			 <tbody>
-			     <tr><td>1</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=42 href=video123/flv/720/big_buck_bunny_720p_1mb.flv download=SampleVideo_1280x720_1mb.flv>Click</a></td></tr><tr><td>2</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=43 href=video123/flv/720/big_buck_bunny_720p_2mb.flv download=SampleVideo_1280x720_2mb.flv>Click</a></td></tr><tr><td>5</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=44 href=video123/flv/720/big_buck_bunny_720p_5mb.flv download=SampleVideo_1280x720_5mb.flv>Click</a></td></tr><tr><td>10</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=45 href=video123/flv/720/big_buck_bunny_720p_10mb.flv download=SampleVideo_1280x720_10mb.flv>Click</a></td></tr><tr>
-                                                <td colspan="4">
-                                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                                    <ins class="adsbygoogle"
-                                                         style="display:block"
-                                                         data-ad-format="fluid"
-                                                         data-ad-layout="image-side"
-                                                         data-ad-layout-key="-fg+5r+6l-ft+4e"
-                                                         data-ad-client="ca-pub-5312069872513739"
-                                                         data-ad-slot="5206114282"></ins>
-                                                    <script>
-                                                         (adsbygoogle = window.adsbygoogle || []).push({});
-                                                    </script>
-                                                </td>
-                                            </tr><tr><td>20</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=46 href=video123/flv/720/big_buck_bunny_720p_20mb.flv download=SampleVideo_1280x720_20mb.flv>Click</a></td></tr><tr><td>30</td><td>flv</td><td>1280x720</td><td><a class='download_video' data=47 href=video123/flv/720/big_buck_bunny_720p_30mb.flv download=SampleVideo_1280x720_30mb.flv>Click</a></td></tr><tr><td>1</td><td>flv</td><td>720x480</td><td><a class='download_video' data=49 href=video123/flv/480/big_buck_bunny_480p_1mb.flv download=SampleVideo_720x480_1mb.flv>Click</a></td></tr><tr><td>2</td><td>flv</td><td>720x480</td><td><a class='download_video' data=50 href=video123/flv/480/big_buck_bunny_480p_2mb.flv download=SampleVideo_720x480_2mb.flv>Click</a></td></tr><tr><td>5</td><td>flv</td><td>720x480</td><td><a class='download_video' data=51 href=video123/flv/480/big_buck_bunny_480p_5mb.flv download=SampleVideo_720x480_5mb.flv>Click</a></td></tr><tr><td>10</td><td>flv</td><td>720x480</td><td><a class='download_video' data=52 href=video123/flv/480/big_buck_bunny_480p_10mb.flv download=SampleVideo_720x480_10mb.flv>Click</a></td></tr><tr><td>20</td><td>flv</td><td>720x480</td><td><a class='download_video' data=53 href=video123/flv/480/big_buck_bunny_480p_20mb.flv download=SampleVideo_720x480_20mb.flv>Click</a></td></tr><tr><td>30</td><td>flv</td><td>720x480</td><td><a class='download_video' data=54 href=video123/flv/480/big_buck_bunny_480p_30mb.flv download=SampleVideo_720x480_30mb.flv>Click</a></td></tr><tr><td>1</td><td>flv</td><td>640x360</td><td><a class='download_video' data=56 href=video123/flv/360/big_buck_bunny_360p_1mb.flv download=SampleVideo_640x360_1mb.flv>Click</a></td></tr><tr><td>2</td><td>flv</td><td>640x360</td><td><a class='download_video' data=57 href=video123/flv/360/big_buck_bunny_360p_2mb.flv download=SampleVideo_640x360_2mb.flv>Click</a></td></tr><tr><td>5</td><td>flv</td><td>640x360</td><td><a class='download_video' data=58 href=video123/flv/360/big_buck_bunny_360p_5mb.flv download=SampleVideo_640x360_5mb.flv>Click</a></td></tr><tr><td>10</td><td>flv</td><td>640x360</td><td><a class='download_video' data=59 href=video123/flv/360/big_buck_bunny_360p_10mb.flv download=SampleVideo_640x360_10mb.flv>Click</a></td></tr><tr><td>20</td><td>flv</td><td>640x360</td><td><a class='download_video' data=60 href=video123/flv/360/big_buck_bunny_360p_20mb.flv download=SampleVideo_640x360_20mb.flv>Click</a></td></tr><tr><td>30</td><td>flv</td><td>640x360</td><td><a class='download_video' data=61 href=video123/flv/360/big_buck_bunny_360p_30mb.flv download=SampleVideo_640x360_30mb.flv>Click</a></td></tr><tr><td>1</td><td>flv</td><td>360x240</td><td><a class='download_video' data=63 href=video123/flv/240/big_buck_bunny_240p_1mb.flv download=SampleVideo_360x240_1mb.flv>Click</a></td></tr><tr><td>2</td><td>flv</td><td>360x240</td><td><a class='download_video' data=64 href=video123/flv/240/big_buck_bunny_240p_2mb.flv download=SampleVideo_360x240_2mb.flv>Click</a></td></tr><tr><td>5</td><td>flv</td><td>360x240</td><td><a class='download_video' data=65 href=video123/flv/240/big_buck_bunny_240p_5mb.flv download=SampleVideo_360x240_5mb.flv>Click</a></td></tr><tr><td>10</td><td>flv</td><td>360x240</td><td><a class='download_video' data=66 href=video123/flv/240/big_buck_bunny_240p_10mb.flv download=SampleVideo_360x240_10mb.flv>Click</a></td></tr><tr><td>20</td><td>flv</td><td>360x240</td><td><a class='download_video' data=67 href=video123/flv/240/big_buck_bunny_240p_20mb.flv download=SampleVideo_360x240_20mb.flv>Click</a></td></tr><tr><td>30</td><td>flv</td><td>360x240</td><td><a class='download_video' data=68 href=video123/flv/240/big_buck_bunny_240p_30mb.flv download=SampleVideo_360x240_30mb.flv>Click</a></td></tr>			 </tbody>
-		     </table>
-	       </div>
-	       
-	       <div class="clear-fix"></div>
-	       <hr>
-		  
-               <h4>Download .mkv Sample Video</h4>
-	       <div class="push-form" id="sample-mkv-video">
-		     <table class="table">
-			 <thead>
-			     <tr>
-				 <!--<th>Title</th>-->
-				 <th>Size(mb)</th>
-				 <th>Format</th>
-				 <th>Resolution</th>
-				 <th>One Click Download</th>
-			     </tr>
-			 </thead>
-			 <tbody>
-			     <tr><td>1</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=70 href=video123/mkv/720/big_buck_bunny_720p_1mb.mkv download=SampleVideo_1280x720_1mb.mkv>Click</a></td></tr><tr><td>2</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=71 href=video123/mkv/720/big_buck_bunny_720p_2mb.mkv download=SampleVideo_1280x720_2mb.mkv>Click</a></td></tr><tr><td>5</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=72 href=video123/mkv/720/big_buck_bunny_720p_5mb.mkv download=SampleVideo_1280x720_5mb.mkv>Click</a></td></tr><tr><td>10</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=73 href=video123/mkv/720/big_buck_bunny_720p_10mb.mkv download=SampleVideo_1280x720_10mb.mkv>Click</a></td></tr><tr>
-                                                <td colspan="4">
-                                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                                    <ins class="adsbygoogle"
-                                                         style="display:block"
-                                                         data-ad-format="fluid"
-                                                         data-ad-layout="image-side"
-                                                         data-ad-layout-key="-fg+5r+6l-ft+4e"
-                                                         data-ad-client="ca-pub-5312069872513739"
-                                                         data-ad-slot="5206114282"></ins>
-                                                    <script>
-                                                         (adsbygoogle = window.adsbygoogle || []).push({});
-                                                    </script>
-                                                </td>
-                                            </tr><tr><td>20</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=74 href=video123/mkv/720/big_buck_bunny_720p_20mb.mkv download=SampleVideo_1280x720_20mb.mkv>Click</a></td></tr><tr><td>30</td><td>mkv</td><td>1280x720</td><td><a class='download_video' data=75 href=video123/mkv/720/big_buck_bunny_720p_30mb.mkv download=SampleVideo_1280x720_30mb.mkv>Click</a></td></tr><tr><td>1</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=77 href=video123/mkv/480/big_buck_bunny_480p_1mb.mkv download=SampleVideo_720x480_1mb.mkv>Click</a></td></tr><tr><td>2</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=78 href=video123/mkv/480/big_buck_bunny_480p_2mb.mkv download=SampleVideo_720x480_2mb.mkv>Click</a></td></tr><tr><td>5</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=79 href=video123/mkv/480/big_buck_bunny_480p_5mb.mkv download=SampleVideo_720x480_5mb.mkv>Click</a></td></tr><tr><td>10</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=80 href=video123/mkv/480/big_buck_bunny_480p_10mb.mkv download=SampleVideo_720x480_10mb.mkv>Click</a></td></tr><tr><td>20</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=81 href=video123/mkv/480/big_buck_bunny_480p_20mb.mkv download=SampleVideo_720x480_20mb.mkv>Click</a></td></tr><tr><td>30</td><td>mkv</td><td>720x480</td><td><a class='download_video' data=82 href=video123/mkv/480/big_buck_bunny_480p_30mb.mkv download=SampleVideo_720x480_30mb.mkv>Click</a></td></tr><tr><td>1</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=84 href=video123/mkv/360/big_buck_bunny_360p_1mb.mkv download=SampleVideo_640x360_1mb.mkv>Click</a></td></tr><tr><td>2</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=85 href=video123/mkv/360/big_buck_bunny_360p_2mb.mkv download=SampleVideo_640x360_2mb.mkv>Click</a></td></tr><tr><td>5</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=86 href=video123/mkv/360/big_buck_bunny_360p_5mb.mkv download=SampleVideo_640x360_5mb.mkv>Click</a></td></tr><tr><td>10</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=87 href=video123/mkv/360/big_buck_bunny_360p_10mb.mkv download=SampleVideo_640x360_10mb.mkv>Click</a></td></tr><tr><td>20</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=88 href=video123/mkv/360/big_buck_bunny_360p_20mb.mkv download=SampleVideo_640x360_20mb.mkv>Click</a></td></tr><tr><td>30</td><td>mkv</td><td>640x360</td><td><a class='download_video' data=89 href=video123/mkv/360/big_buck_bunny_360p_30mb.mkv download=SampleVideo_640x360_30mb.mkv>Click</a></td></tr><tr><td>1</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=91 href=video123/mkv/240/big_buck_bunny_240p_1mb.mkv download=SampleVideo_360x240_1mb.mkv>Click</a></td></tr><tr><td>2</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=92 href=video123/mkv/240/big_buck_bunny_240p_2mb.mkv download=SampleVideo_360x240_2mb.mkv>Click</a></td></tr><tr><td>5</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=93 href=video123/mkv/240/big_buck_bunny_240p_5mb.mkv download=SampleVideo_360x240_5mb.mkv>Click</a></td></tr><tr><td>10</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=94 href=video123/mkv/240/big_buck_bunny_240p_10mb.mkv download=SampleVideo_360x240_10mb.mkv>Click</a></td></tr><tr><td>20</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=95 href=video123/mkv/240/big_buck_bunny_240p_20mb.mkv download=SampleVideo_360x240_20mb.mkv>Click</a></td></tr><tr><td>30</td><td>mkv</td><td>360x240</td><td><a class='download_video' data=96 href=video123/mkv/240/big_buck_bunny_240p_30mb.mkv download=SampleVideo_360x240_30mb.mkv>Click</a></td></tr>			 </tbody>
-		     </table>
-		  
-	       </div>
-	       
-	       <div class="clear-fix"></div>
-	       <hr>
-               
-	       <h4>Download .3gp Sample Video</h4>
-	       <div class="push-form" id="sample-3gp-video">
-		     
-		     <table class="table">
-			 <thead>
-			     <tr>
-				 <!--<th>Title</th>-->
-				 <th>Size(mb)</th>
-				 <th>Format</th>
-				 <th>Resolution</th>
-				 <th>One Click Download</th>
-			     </tr>
-			 </thead>
-			 <tbody>
-			     <tr><td>1</td><td>3gp</td><td>176x144</td><td><a class='download_video' data=32 href=video123/3gp/144/big_buck_bunny_144p_1mb.3gp download=SampleVideo_176x144_1mb.3gp>Click</a></td></tr><tr><td>2</td><td>3gp</td><td>176x144</td><td><a class='download_video' data=33 href=video123/3gp/144/big_buck_bunny_144p_2mb.3gp download=SampleVideo_176x144_2mb.3gp>Click</a></td></tr><tr><td>5</td><td>3gp</td><td>176x144</td><td><a class='download_video' data=34 href=video123/3gp/144/big_buck_bunny_144p_5mb.3gp download=SampleVideo_176x144_5mb.3gp>Click</a></td></tr><tr><td>10</td><td>3gp</td><td>176x144</td><td><a class='download_video' data=35 href=video123/3gp/144/big_buck_bunny_144p_10mb.3gp download=SampleVideo_176x144_10mb.3gp>Click</a></td></tr><tr>
-                                                <td colspan="4">
-                                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                                    <ins class="adsbygoogle"
-                                                         style="display:block"
-                                                         data-ad-format="fluid"
-                                                         data-ad-layout="image-side"
-                                                         data-ad-layout-key="-fg+5r+6l-ft+4e"
-                                                         data-ad-client="ca-pub-5312069872513739"
-                                                         data-ad-slot="5206114282"></ins>
-                                                    <script>
-                                                         (adsbygoogle = window.adsbygoogle || []).push({});
-                                                    </script>
-                                                </td>
-                                            </tr><tr><td>1</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=36 href=video123/3gp/240/big_buck_bunny_240p_1mb.3gp download=SampleVideo_320x240_1mb.3gp>Click</a></td></tr><tr><td>2</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=37 href=video123/3gp/240/big_buck_bunny_240p_2mb.3gp download=SampleVideo_320x240_2mb.3gp>Click</a></td></tr><tr><td>5</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=38 href=video123/3gp/240/big_buck_bunny_240p_5mb.3gp download=SampleVideo_320x240_5mb.3gp>Click</a></td></tr><tr><td>10</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=39 href=video123/3gp/240/big_buck_bunny_240p_10mb.3gp download=SampleVideo_320x240_10mb.3gp>Click</a></td></tr><tr><td>20</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=40 href=video123/3gp/240/big_buck_bunny_240p_20mb.3gp download=SampleVideo_320x240_20mb.3gp>Click</a></td></tr><tr><td>30</td><td>3gp</td><td>320x240</td><td><a class='download_video' data=41 href=video123/3gp/240/big_buck_bunny_240p_30mb.3gp download=SampleVideo_320x240_30mb.3gp>Click</a></td></tr>			 </tbody>
-		     </table>
-		  
-	       </div>
-	       
-	    </div>
-            
-	    <!--right sidebar starts-->
-	    
-	     
-<div class="col-md-3 right">
-    <div class="right-sidebar">
-        <h4 style="text-align: center;">Sample Video Download Statistics</h4>
-        <table class="table table-hover">
-            <tbody>
-                <tr title="Sample Video Download Statistics">
-                     <td style="width: 60%">Total Downloaded</td>
-                     <td id="download_video_count">2006152</td>
-                </tr>
-            </tbody>
-       </table>
-    </div>
-
-    <div style="clear: both;"></div>
-    <br>
-    
-    <div class="alert alert-success alert-dismissable quick-feedback-success" style="display: none;">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button>
-        Thanks you !
-    </div>
-    
-    <div class="alert alert-danger alert-dismissable  quick-feedback-error" style="display: none;">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button>
-        Crap.. Something went wrong. Please try again. Or <a href="http://www.sample-videos.com/contact.php">Contact us</a>
-    </div>
-    
-    <div class="quick-feedback-div">
-        <div class="col-md-12">
-        <label for="comment">Quick Feedback</label>
-        </div>
-        <div class="col-md-9">
-            <div class="form-group">
-                <input class="form-control" id="quick_feedback_email" placeholder="Email Id (Optional)"></textarea>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="3" id="quick_feedback_message" placeholder="Give your valuable Feedback"></textarea>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <button type="submit" name="contact" class="btn btn-primary send-quick-feedback">Send</button>
-        </div>
-    </div>
-    
-    <div style="clear: both;"></div>
-    <br>
-    
-    <!--<div style="display:block;max-height:180px;overflow:hidden; " >
-        <div id="rest_world_paypal">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="LTB32TXSPCW3E">
-            <table style="margin:0 0 10px 0">
-            <tr><td><input type="hidden" name="on0" value="Buy Me a Coffee">Buy Me a Coffee</td></tr><tr><td><select name="os0">
-                    <option value="Short">Short $2.00 USD</option>
-                    <option value="Tall">Tall $5.00 USD</option>
-                    <option value="Grand">Grand $10.00 USD</option>
-                    <option value="Venti">Venti $20.00 USD</option>
-            </select> 
-            <input type="image" src="http://sample-videos.com/images/buy-me-a-coffee11.png" border="0" name="submit" alt="PayPal � The safer, easier way to pay online." style="
-                margin: 10px 0;
-                width: 165px;
-            ">
-            </td></tr>
-            </table>
-            <input type="hidden" name="currency_code" value="USD">
-            
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-            </form>
-        </div>
-        <div id="india_paypal" style="display: none;">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="MX63H3LF6TPKG">
-                <input type="image" src="http://sample-videos.com/images/buy-me-a-coffee11.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
-        </div>
-    </div>
-    <div style="clear:both"></div>
-    
-    
-    <br>-->
-    
-    <div id="facebooklikebox-12"></div>
-    
-    <div style="clear: both;"></div>
-    
-    <br>
-    
-    <!--<script type="text/javascript" language="javascript"> var aax_size='300x250'; var aax_pubname = 'sampvide-21'; var aax_src='302'; </script><script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>-->
-    <!--<script charset="utf-8" type="text/javascript">
-amzn_assoc_ad_type = "responsive_search_widget";
-amzn_assoc_tracking_id = "sampvide-21";
-amzn_assoc_marketplace = "amazon";
-amzn_assoc_region = "IN";
-amzn_assoc_placement = "";
-amzn_assoc_search_type = "search_widget";
-amzn_assoc_width = "auto";
-amzn_assoc_height = "auto";
-amzn_assoc_default_search_category = "";
-amzn_assoc_default_search_key = "iphone 5s gray";
-amzn_assoc_theme = "light";
-amzn_assoc_bg_color = "FFFFFF";
-</script>
-<script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=IN"></script>-->
-    <!--<div>-->
-        <!--<a target="_blank" href="http://visitmatrics.com"><img src="images/Visitmatrics-300x250_128.gif"></a>-->
-    <!--</div>-->
-    
-    <br>
-    <!-- Slab 5 Right sidebar -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:300px;height:600px"
-         data-ad-client="ca-pub-5312069872513739"
-         data-ad-slot="3810106283"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <!--<div id="facebooklikebox-3" class="widget widget_FacebookLikeBox" style="width: 100% !important;">
-       <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-       <fb:like-box href="https://www.facebook.com/607728429342897" show_faces="true" border_color="AAAAAA" stream="false" header="true" class="fb_iframe_widget" fb-xfbml-state="rendered" ><span style="vertical-align: bottom; height: 400px;"><iframe name="f25883e0a8" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="yes" title="fb:like_box Facebook Social Plugin" style="border: none; visibility: visible; height: 400px;" class=""></iframe></span></fb:like-box>
-    </div>-->
- </div>            
-	    <!--right sidebar ends-->
-	    
-         </div>
-        
-         <div style="margin-bottom:60px;"></div>
-         
-         <!--<div class="row col-md-6 center-block">
-   <div class="media">
-      <div class="media-left media-middle">
-         <a href="#">
-            <img class="media-object img-circle" src="images/21.jpg" width="64" height="64" alt="...">
-         </a>
-      </div>
-      <div class="media-body">
-         <h4 class="media-heading">Nishant Kansagra</h4>
-         Developer to is awesome tool for your notifications and so much fast and accuracy.
-      </div>
-   </div>
-   
-   <div class="comment" style="margin:50px 0;">
-      <h4>Leave a Response</h4><br>
-      <form>
-         <div class="form-group">
-            <label for="exampleInputText1">Name(required)</label>
-            <input type="text" class="form-control" id="exampleInputText1" placeholder="Api Server Key">
-         </div>
-         <div class="form-group">
-            <label for="exampleInputText1">Email</label>
-            <input type="email" class="form-control" id="exampleInputText2" placeholder="">
-         </div>
-         <div class="form-group">
-            <label for="exampleInputText1">Website</label>
-            <input type="text" class="form-control" id="exampleInputText3" placeholder="">
-         </div>
-         <div class="form-group">
-            <label for="comment">Your Comments</label>
-            <textarea class="form-control" rows="8" id="comment"></textarea>
-         </div>
-         
-         <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-   </div>  
-</div>-->         
-      </div>
-   </div>
-   <!-- /container -->
-
-   <!--<iframe width="420" height="345" src="http://www.youtube.com/embed/s1zOXomAQ_4" frameborder="0" allowfullscreen></iframe>-->
-
-<button type="button" class="btn btn-info btn-lg" id="model-opener" data-toggle="modal" style="display: none;" data-target="#myModal">Open Modal</button>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog" tabindex='-1'>
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Knowledge Base</h4>
-      </div>
-      <div class="modal-body" style="min-height: 140px;">
-         <div style="display: inline-block; float: left; width: 19%; margin-right:3%;" id="model-img-div">
-            
-         </div>
-         <div style="display: inline-block; width: 78%;">
-            <h4 id="model-question"></h4>
-            <p id="model-answer"></p>
-            <div id="model-link"></div>
-         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<link rel="stylesheet" href="css/jquery.jgrowl.css" type="text/css"/>
-   <div class="container" style="display:none;">
-      <div class="row">
-         <div class="col-md-3"></div>
-         <div class="col-md-6">
-            <h3>Leave a comment</h3>
-            <form role="form" method="POST">
-               <div class="col-md-10">
-                  <div class="form-group">
-                     <input name="name" type="text" class="form-control" id="name" placeholder="Name *" maxlength="30" required>
-                   </div>
-                   <div class="form-group">
-                     <textarea name="comment" rows="3" class="form-control" id="comment" placeholder="Comment *" required></textarea>
-                   </div>
-                   <div class="form-group">
-                     <button type="submit" name="add_comment" id="add_comment" class="btn btn-primary">Add Comment</button>
-                   </div>
-               </div>
-            </form>
-            
-            <div class="clearfix"></div>
-                        
-            <hr>
-            <div class="clearfix"></div>
-            
-            <h3>All Comments</h3>
-            
-                       
-            
-         </div>
-         <div class="col-md-3"></div>
-      </div>
-   </div>
-            
-   
-   <hr>
-   <footer class="container">
-      &copy; Sample Video Developers
-      <span style="float: right;">www.bigbuckbunny.org</span>
-   </footer>
-   <br>
-   <!-- Bootstrap core JavaScript
-   ================================================== -->
-   <!-- Placed at the end of the document so the pages load faster -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   
-   <!-- Scrolling Nav JavaScript -->
-   <script src="js/jquery.easing.min.js"></script>
-   <script src="js/scrolling-nav.js"></script>
-   <script type="text/javascript" src="js/jquery.jgrowl.js"></script>
-   
-   <!--<script src="js/bootstrap-tagsinput.js"></script>-->
-   <!--<script src="js/validator.min.js"></script>-->
-   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-   
-   <script src="js/jstz-1.0.4.min.js"></script>
-    <script>
-        function getTimezoneName()
-        {
-            timezone = jstz.determine();
-            var a = timezone.name();
-            //console.log(a);
-            if (a != 'Asia/Kolkata')
-            {
-                $('#india_paypal').hide();
-                $('#rest_world_paypal').show();
-            }
-            else
-            {
-                $('#india_paypal').show();
-                $('#rest_world_paypal').hide();
-            }
-        }
-        
-        $(function(){
-            getTimezoneName();
-        });
-    </script>
-    
-   
-   <script type='text/javascript'>
-//<![CDATA[
-$(document).ready(function() {
-  setTimeout(function(){
-    console.log('asd');
-      $('#facebooklikebox-12').append('<div id="fb-root"></div>');
-      $('#facebooklikebox-12').append('<fb:like-box href="http://www.facebook.com/607728429342897" width="300" show_faces="true" stream="false" header="false"></fb:like-box>'); 
-      jQuery.getScript('https://connect.facebook.net/en_US/all.js#xfbml=1', function() {
-          FB.init({status: true, cookie: true, xfbml: true});
-      });
-  },1000);
-});
-//]]>
-</script>
-   <script>
-   $(function(){
-      $('body').on('click','ul a',function(){
-         $('ul a').removeClass('active');
-         $(this).addClass('active');
-      });
-      
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-103823277-1', 'auto');
-      ga('send', 'pageview');
-      
-      //(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      //(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      //m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      //})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      //ga('create', 'UA-53116293-1', 'auto');
-      //ga('send', 'pageview');
-   });
-   
-   $('.download_video').click(function(){
-	var this1 = $(this);
-        var id = $(this).attr('data');
-        var same_configuration_id = $(this).attr('same_configuration_id');
-        var user_id = $(this).attr('user_id');
-        
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id , same_configuration_id:same_configuration_id, user_id:user_id},
-	    beforeSend : function(){
-		//$('body').addClass('class_to_blur');
-		//$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                     //$('body').removeClass('class_to_blur');
-                     //$('#ajax_loader').css('display','none');
-                     $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-                     
-                     data = $.parseJSON(data);
-                     console.log(data);
-                     
-                     if (data.question != undefined)
-                     {
-                        $('#model-opener').trigger('click');
-                        $('#model-img-div').html('<img src="images/kb/'+data.image+'" style="max-width:100%;" >');
-                        $('#model-question').text(data.question);
-                        $('#model-answer').html(data.answer_short);
-                        
-                        if (data.link != undefined)
-                        {
-                           $('#model-link').html('<a href="'+data.link+'" target="_blank" >Know More</a>');
-                        }
-                     }
-                          $.jGrowl.defaults.closer = false;
-			  $.jGrowl.defaults.pool = 5;
-                          
-                          $('#one').jGrowl('Please like us on facebook, thanks in advance!!', {
-                                  life: 10000,
-                          });
-                  },
-	    error: function(){
-		//$('body').removeClass('class_to_blur');
-		//$('#ajax_loader').css('display','none');
-	    }
-	
-	});
-	
-    });
-    
-    $('.download_audio').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'audio' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	
-	});
-	
-    });
-    
-    
-    $('.download_xls').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'xls_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	
-	});
-	
-    });
-    
-    $('.download_image').click(function(){
-      //alert(id);
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'image' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                    $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_sql').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'sql_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_ppt').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'ppt_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_csv').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'csv_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	
-	});
-	
-    });
-    
-    $('.download_pdf').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'pdf_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-	
-    });
-    
-    $('.download_doc').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'doc_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_zip').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'zip_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                    $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    
-    $('.download_psd').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'psd_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                    $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_dxf').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'dxf_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                    $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    $('.download_text').click(function(){
-	var id = $(this).attr('data');
-	$.ajax({
-	    type: "POST",
-	    url: "query/download.php",
-	    data: { id: id,type:'text_file' },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-                    $('#download_video_count').text(parseInt($('#download_video_count').text())+1);
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	});
-    });
-    
-    
-    $('#select_format').change(function(){
-	self = $('#select_resolution');
-	$.ajax({
-	    type: "POST",
-	    url: "query/format.php",
-	    data: { video_format: $(this).val() },
-	    beforeSend : function(){
-		$('body').addClass('class_to_blur');
-		$('#ajax_loader').css('display','block');
-	    },
-	    success : function(data){
-		    
-		    data = $.parseJSON(data);
-		    self.empty();
-		    $option = $("<option></option>")
-			.attr("value", "")
-			.text("Select Resolution");
-			self.append($option);
-		    
-		    for (var i = 0;i<data.length; i++) {
-			$option = $("<option></option>")
-			.attr("value", data[i])
-			.text(data[i]);
-			self.append($option);
-		    }
-		    
-		    $('body').removeClass('class_to_blur');
-		    $('#ajax_loader').css('display','none');
-		},
-	    error: function(){
-		$('body').removeClass('class_to_blur');
-		$('#ajax_loader').css('display','none');
-	    }
-	
-	});
-	
-    });
-    
-    $('.send-quick-feedback').click(function(){
-         var email = $('#quick_feedback_email').val();
-         var message = $('#quick_feedback_message').val();
-         if ($('#quick_feedback_message').val() == '')
-         {
-            $('#quick_feedback_message').attr('placeholder','This field is required.');
-            $('#quick_feedback_message').focus();
-            return false;
-         }
-         //alert('asd');
-         
-         $.ajax({
-	    type: "POST",
-	    url: "query/quickfeedback.php",
-	    data: { message: message, email:email },
-	    success : function(data){
-                     if (data == 'done')
-                     {
-                        $('.quick-feedback-success').show('slow');
-                        $('.quick-feedback-div').hide();
-                     }
-                     else
-                     {
-                        $('quick-feedback-error').show('slow');
-                        $('.quick-feedback-div').hide();
-                     }
-                  },
-	    error: function(){
-		//$('body').removeClass('class_to_blur');
-		//$('#ajax_loader').css('display','none');
-	    }
-         });
-      });
-</script>
-   
-<div id="one" class="jGrowl bottom-right"></div>
-  </body>
-</html>
+Anokh Ettaboina,https://www.facebook.com/anokh.ettaboina?,
+Vivek Sama,https://www.facebook.com/viveksama45?sk=wall&,,
+Ikhor Events,https://www.facebook.com/IkhorEvents/?ref=gm&,,
+Kevin Icon,https://www.facebook.com/kevin.icon.1485?sk=wall&,,
+Amaravati Mooresville,https://www.facebook.com/amaravati.mooresville.3?sk=wall&,,
+Amarachi Wilfred,https://www.facebook.com/amarachi.wilfred.3?sk=wall&,,
+Santosh Vemula,https://www.facebook.com/nanna588?sk=wall&,0wner,Nanna's Photography,,,
+Ragini Rohin Sharma,https://www.facebook.com/raginirohin?sk=wall&,,
+Amit Vasi,https://www.facebook.com/amit.vasi?sk=wall&,Self-Employed,Maruti Shops,LLC,,
+Ameya Devbhankar,https://www.facebook.com/ameya990?sk=wall&,,
+Farida C Bootwala,https://www.facebook.com/farida.bootwala?sk=wall&,,
+Naveen Raj D,https://www.facebook.com/nrgthgf?sk=wall&,Senior Robotics Automation Developer,Cognizant,,,
+Vijayendra Nerurkar,https://www.facebook.com/vijayendra.nerurkar?,,
+Ankush Reddy,https://www.facebook.com/ankushveer?sk=wall&,,
+Noble Reddy,https://www.facebook.com/noblefrnds?,,
+Mounika Reddy,https://www.facebook.com/aunugum?sk=wall&,,
+Yogita Gujarathi,https://www.facebook.com/yogita.gujarathi.7528?sk=wall&,,
+Dilip Pandey,https://www.facebook.com/profile.php?id=100026575845266&sk=wall&,Works,India Network Health Insurance,,,
+Shubham Krishna,https://www.facebook.com/jhalak.cricket?,Works,Jhalak.com,,,
+Namra Chaudhary,https://www.facebook.com/desai.namra.94?,,
+Manasi Kothari,https://www.facebook.com/manasi.kothari.18?,,
+Barry Ryan,https://www.facebook.com/Barry.F.Ryan?,Trading Specialist & Personal Account Manager,Traderhouse Global,,,
+Subhash Dubey,https://www.facebook.com/subhash.dubey.10?,Works,YASH Technologies,,,
+Sahana Kasam,https://www.facebook.com/sahana.kasam?,Vishwa Bharathi Vidyalayam,
+Krishna Akariya,https://www.facebook.com/krishna.akariya?,,
+Hardik B Mehta,https://www.facebook.com/hardik.b.mehta?,Founder and Owner,Rasleela,,,
+Sowmya Reddy,https://www.facebook.com/sowmya.reddy.50159836?,Matthews,North Carolina,,,
+Shajeela Biju,https://www.facebook.com/shajeelab?,,
+Kalpana Bangari Negi,https://www.facebook.com/KalpanaBangari?,,
+Rushikesh Kagade,https://www.facebook.com/rushikesh.kagade?,Associate Project Manager,Ferrovial Agroman US Corp,,,
+Aziz Charania,https://www.facebook.com/aziz.charania.169?,,
+Vagdevi Laxmikumar,https://www.facebook.com/profile.php?id=100010123906323&,,
+Srihitha Marthand,https://www.facebook.com/profile.php?id=100008823078045&,,
+Viji Sethuram,https://www.facebook.com/vijayalakshmi.sethuram?,,
+Gokul Nithin Kumar,https://www.facebook.com/gokul.nithin?,,
+SanthoshKumar Jagadish,https://www.facebook.com/santhoshkumar.jagadish?,Data scientist,Credit Suisse,,,
+Anandhapadmanaban Madhavan,https://www.facebook.com/anandh.madhavan?,Scrum Master / Project Manabger,Wells Fargo,,,
+Sachin Kulkarni,https://www.facebook.com/sachin.kulkarni.750?,Data Engineer,GE,,,
+Radhika Jodhani,https://www.facebook.com/radhika.jodhani.9?,Works,IBM,,,
+Kshitij Shah,https://www.facebook.com/kshitij.shah.16?,Works,G10 Consultancy,,,
+Niraj Kothari,https://www.facebook.com/nirajskothari?,Director,KothariJewelry.com,,,
+Devisha Rajiv Vyas,https://www.facebook.com/devisha.r.vyas?,,
+Ram Kumar,https://www.facebook.com/profile.php?id=693026048&,Bharathidasan University,Tamilnadu,India,,
+Sreeni Sidd,https://www.facebook.com/profile.php?id=100014394540099&,,
+Kumar Mohan,https://www.facebook.com/asdhavf?,Graduate Teaching Assistant,University of New Orleans,,,
+Tru Sha Patel,https://www.facebook.com/trusha.patel.946?,,
+Venkat Reddy,https://www.facebook.com/vkmreddy?,,
+Ruchi Ahuja,https://www.facebook.com/ruchi.ahuja.33?,,
+Hap Harsha,https://www.facebook.com/harshada.kumar.1?,,
+Chandra Bhatt,https://www.facebook.com/cb.chandra.bhatt?,,
+Hach Ruchir,https://www.facebook.com/hach.ruchir?,Manager,HACH Technologies,,,
+Rahul Kalavala,https://www.facebook.com/rahul.kalavala.25?,,
+Balaji Nagarajan,https://www.facebook.com/balaji.nagarajan.37?,Works,Lowe's Home Improvement,,,
+Tsering Lhamo,https://www.facebook.com/tseringlhamo88?,,
+SreeHarsha Rekhana,https://www.facebook.com/sreeharsha.rekhana?,Technology Lead (TL),Infosys,,,
+Purnima Divvela,https://www.facebook.com/purnima.divvela?,Founder/CEO,Array of dolls - Abundance in our products and your happiness,,,
+Spa Sparrsh,https://www.facebook.com/SparrshSpaFortMill?,,
+Dhaval Patel,https://www.facebook.com/dhaval.patel.75248?,Automation Engineer,Bank of America,,,
+Chandan Singh,https://www.facebook.com/profile.php?id=100027379604148&,Graduate Research Assistant,Credit Suisse,,,
+Samir Jha,https://www.facebook.com/You.just.stalked.Samir?,Software Developer,Red Hat,,,
+Lokesh War,https://www.facebook.com/profile.php?id=100008255374673&,,
+Kalyan C Vandana,https://www.facebook.com/kalyancvandana?,,
+Kiran Dhabhai Gurjar,https://www.facebook.com/kiran.dhabhai?,,
+Sandip Anurag,https://www.facebook.com/sandip.anurag?,,
+Nirupama G Reddy,https://www.facebook.com/nirupama.g.reddy?,,
+Shunmugapriya Sathanantham,https://www.facebook.com/shunmugapriya.sathanantham?,,
+Vedant Raval,https://www.facebook.com/vedant.raval?,Graduate Teaching Assistant,UNC Charlotte,,,
+Sri Kanth,https://www.facebook.com/Mr.Sincere.sree?,,
+Artz N Craftz,https://www.facebook.com/artznc?,,
+Teja Sp,https://www.facebook.com/teja.sp.9?,,
+Supriya Gour,https://www.facebook.com/supriya.gour.73?,,
+Priya Joshi,https://www.facebook.com/priyajoshi2?,,
+Sai Daliparti,https://www.facebook.com/sdaliparti?,,
+Tawan Kandee,https://www.facebook.com/pijtawan.phanprayad?,,
+Monika Bhoware,https://www.facebook.com/monika.bhoware?,,
+Perumalla Venkatasaisantosh,https://www.facebook.com/venkatasaisantosh?,Co-ordinator,Enlightening Lives,,,
+Nithya Muthaiyan,https://www.facebook.com/nithya.muthaiyan?,,
+Nishant Vathsal,https://www.facebook.com/nishant.vathsal?,,
+Vikas Sivaravindran,https://www.facebook.com/vikas.sra?,Works,Accenture,,,
+Pramit Rughani,https://www.facebook.com/pramit.rughani.3?,,
+Guruprasad Reddy,https://www.facebook.com/guruprasad.reddy.77?,Software Systems Engineer,Extreme Networks,,,
+Din Esh,https://www.facebook.com/djrao159?,,
+Chhavi Sharma,https://www.facebook.com/chhavi.sharma13?,,
+Satish Kr,https://www.facebook.com/satish.kr.501?,Works,The McGraw-Hill Companies,,,
+Sunny Kesireddy,https://www.facebook.com/ksunny?,Assesment head,Institute of Nutrition and Fitness Sciences,,,
+Ashish Gaba,https://www.facebook.com/ashig5?,,
+Sahil Gupta,https://www.facebook.com/sahil.adii?,,
+Jasmine Trivedi,https://www.facebook.com/jasmine.m.trivedi?,,
+Shankar Patil,https://www.facebook.com/shankar.patil1984?,,
+Lakshmi Sounder,https://www.facebook.com/lakshmi.sounder?,,
+Melchizedek Jonathan Martin,https://www.facebook.com/melkijonni?,,
+Shweta Desai Surange,https://www.facebook.com/shweta.desai.391?,,
+Rina Suthar,https://www.facebook.com/rina.suthar.142?,,
+Mithun Chakravarthyr,https://www.facebook.com/mithun.chakravarthyr?,,
+Nithin P V Rao,https://www.facebook.com/nithinpv.rao?,Engineering Intern,Andritz Hydro,,,
+Baskar Manickam,https://www.facebook.com/baskar.manickam.77?,,
+Melissa S. Tronger,https://www.facebook.com/singhsongs4?,,
+Padmini Yarlagadda,https://www.facebook.com/padmini.yarlagadda?,,
+Rahul Reddy,https://www.facebook.com/rahulreddiee?,Applications Engineer,Wells Fargo,,,
+Anwar Parvez,https://www.facebook.com/aparvez1?,Director of Sales and Market Development,National Cricket League - NCL,,,
+Amit Kr,https://www.facebook.com/amitk1112?,,
+Hiten Suthar,https://www.facebook.com/profile.php?id=100012737142717&,Works,Self-Employed,,,
+Vanitha Kiran,https://www.facebook.com/VanithaIyer?,,
+Anu Gala Nishar,https://www.facebook.com/anu.j.nisar?,,
+Charlie Thomas,https://www.facebook.com/charlie.thomas.10441861?,,
+Ajay Yadav,https://www.facebook.com/16aj24?,,
+Deepa Veeramachaneni,https://www.facebook.com/profile.php?id=100010263424821&,,
+Cva Parvathi,https://www.facebook.com/cva.parvathi?,,
+Narendra Devarapalli,https://www.facebook.com/profile.php?id=100004349147621&,,
+Jon Wright,https://www.facebook.com/jon.wright.7587?,General Manager,Brazos Movers Raleigh/Durham,,,
+Swapna Sri,https://www.facebook.com/swapna.sri.129?,,
+Binnu Nabi,https://www.facebook.com/binaaz?,,
+Priyanka Puri,https://www.facebook.com/priyanka.guptha04?,,
+Tejaswini Polisetty,https://www.facebook.com/tejas.polisetty?,,
+Sirideep Boddu,https://www.facebook.com/sirideepboddu?,,
+Satish Krishnamurthy,https://www.facebook.com/satishurs?,,
+Akshay Sutrave,https://www.facebook.com/sutrave.akshay?,,
+Ananthram EL,https://www.facebook.com/elananthram?,NC State University,
+Vikaash Kumar,https://www.facebook.com/k.vikaash?,,
+Sejal Kalpit Shah,https://www.facebook.com/sejal.shah.188?,Clinical Pharmacist,Cone Health,,,
+Sai Srinivas,https://www.facebook.com/srini.j26?,,
+Pratyusha Anirudh,https://www.facebook.com/prathyusha1653?,,
+Nirali Dave,https://www.facebook.com/dnilu007?,,
+RediNav Navii,https://www.facebook.com/profile.php?id=100007180519501&,Sri Chaitanya Educational Institutions,
+Srinadh Munipalli,https://www.facebook.com/srinadh.munipalli?,,
+Rangeen Handle,https://www.facebook.com/rangeen.handle?,,
+Shireen Sh,https://www.facebook.com/shireen.sh.7?,,
+Sona Agarwal,https://www.facebook.com/sonabanerjee99?,,
+Shubhra Rawat,https://www.facebook.com/shubhra.rawat23?,Works,Infosys,,,
+Manan Singh Katohora,https://www.facebook.com/manansingh.katohora.9?,,
+Supriya Ravi,https://www.facebook.com/supriya.cherukuri?,,
+HoneyBee Handlooms Rams,https://www.facebook.com/ramya.gogineni.3?,,
+Nikita Mudigonda,https://www.facebook.com/nikitamudigonda?,,
+Jan Juneja Naik,https://www.facebook.com/jan.juneja?,,
+Ravi Biruthoji,https://www.facebook.com/ravi.biruthoji?,,
+Javaria Sarwar,https://www.facebook.com/javaria.sarwar.3?,,
+Anirudh Yemula,https://www.facebook.com/anirudh.nevergiveup?,Senior Software Engineer,American Express,,,
+Priya Reddy,https://www.facebook.com/priyaduvur?,,
+Kompalli Swapna,https://www.facebook.com/kompalli.swapna?,,
+Siddhartha Reddy Nallawar,https://www.facebook.com/nsreddy.nsr?,,
+Pragya Thapa,https://www.facebook.com/pragya.t.karki?,,
+Arunima Basu,https://www.facebook.com/arunima.basu.71?,Works,Qualcomm,,,
+Srividhya Sriram,https://www.facebook.com/srividhya.sriram.7?,,
+Nishitha Reddy,https://www.facebook.com/NishithaAyyalapu?,,
+Beena Gajjar,https://www.facebook.com/beena.gajjar.5?,,
+Ritu Kumar,https://www.facebook.com/Ritu.pandey.min?,,
+Aishwarya Jonnala,https://www.facebook.com/profile.php?id=100007026529292&,,
+JS Surya,https://www.facebook.com/JSURYAREDDY?,,
+Maulik Shah,https://www.facebook.com/maulik.shah.3532507?,University of North Carolina,Charlotte,,,
+Thiyagarajan Thakshinamoorthy,https://www.facebook.com/thiyagarajan.thakshinamoorthy.1?,,
+Spandana Mandala,https://www.facebook.com/spandana.mandala?,,
+Iswarya Selvaraj,https://www.facebook.com/iswarya.selvaraj.73?,Associate,Cognizant,,,
+Deepak Ravichandran,https://www.facebook.com/deepakravichandran19?,,
+Sindhu Alampalli,https://www.facebook.com/sindhu.alampalli?,Works,Cognizant,,,
+Hira Siddiqui,https://www.facebook.com/siddiquih?,Real Estate Agent/Broker,Giving Tree Realty,,,
+Rajini Makkal Mandram Carolinas,https://www.facebook.com/RmmUSACarolinas?,,
+Asmat Unnisa,https://www.facebook.com/profile.php?id=100010611826887&,,
+Sonam Gandhi,https://www.facebook.com/sonam.jain.79025?,NavGujarat College,
+Chandu Korrapati,https://www.facebook.com/chandu.korrapati.7?,Product Support Engineer - Aircraft Seating and Cabin Interiors,HAECO Americas,,,
+Saranya Saru,https://www.facebook.com/saranya.yadav.5?,,
+Mallikharjuna Bheemavarapu,https://www.facebook.com/mallikharjuna.bhimavarapu?,Senior Associate,Cognizant Technology Solutions US Corporation,,,
+Lavanya Lakshmi,https://www.facebook.com/lavanya.lakshmi.184?,GITAM University,Visakhapatnam,,,
+Ashok Gajjar,https://www.facebook.com/ashok.gajjar.737?,,
+Mytreyi Shastry Aravind,https://www.facebook.com/mytreyiaravind?,,
+Harita Bollu,https://www.facebook.com/harita.bollu?,,
+Pomil Singh,https://www.facebook.com/profile.php?id=100009320892649&,Works,Self-Employed,,,
+Madhuri Varun,https://www.facebook.com/madhurin.goli?,,
+Sulabha Nandkishor Gawali,https://www.facebook.com/sulabha.bhagat?,,
+Manan Singh Katohora,https://www.facebook.com/manansingh.katohora?,,
+Leena Patel,https://www.facebook.com/nitapatel2017?,Owner-operator,Self-Employed,,,
+Archanaa Bhushan,https://www.facebook.com/profile.php?id=100011013841851&,,
+Shivani Bhatia,https://www.facebook.com/shivani.bhatia.3990?,,
+Poogle Narendran,https://www.facebook.com/profile.php?id=100009437174371&,,
+Invictus Raj,https://www.facebook.com/invictus.raj?,Chief executive officer,Jirehtech Inc.,,,
+Shreya Jain,https://www.facebook.com/shreya.jain.3110?,,
+H Jethliya,https://www.facebook.com/hema.jethliya.7?,Works,Graphic360,,,
+Satish Vankineni,https://www.facebook.com/satish.vankineni?,,
+Kuncharapu Sowmya,https://www.facebook.com/kuncharapu.sowmya?,Financial Analyst,Hyderabad,,,
+Riya Annesha,https://www.facebook.com/riya.annesha?,,
+Ritesh Kapoor,https://www.facebook.com/ritesh.kapoor2?,,
+Garvam Utah,https://www.facebook.com/garvam.utah.3?,,
+Vijaya Kumar,https://www.facebook.com/profile.php?id=100024951043666&,,
+Malathi Balaji,https://www.facebook.com/mala.muthu.71?,,
+Varun Nancy Thakur,https://www.facebook.com/reemasidhu123?,,
+Sarath Tamarana,https://www.facebook.com/sarath.t.nitw?,National Institute of Technology,Warangal,,,
+JR RJ,https://www.facebook.com/profile.php?id=100014157578099&,,
+Sudharani Paleti,https://www.facebook.com/sudharani.paleti?,Director of Quality Assurance,NCINO,INC.,,
+Parmeshwar Soni,https://www.facebook.com/parmeshwar.soni.10?,Works,Tata Consultancy Services,,,
+Guna Kathir,https://www.facebook.com/gunakathir?,,
+Pooja Vadehra,https://www.facebook.com/pooja.vadehra.14?,,
+Naynesh Mehta,https://www.facebook.com/naynesh.mehta?,Management,Embassy Suites by Hilton Fayetteville Fort Bragg,,,
+Sripal KS,https://www.facebook.com/profile.php?id=100012450943580&,,
+Srilekha Mallaram,https://www.facebook.com/srilekha.mallaram?,,
+Dorababu S Sannareddy,https://www.facebook.com/profile.php?id=100011233900943&,,
+Raj Raghavapurapu,https://www.facebook.com/nagaraju2540?,Assistant Vice President (AVP),Credit Suisse,,,
+Kandarp Thakar,https://www.facebook.com/thaker.kandarp?,Application Analyst/Developer,IBM,,,
+Har Shi,https://www.facebook.com/harshi1989?,,
+Gurvinder Kaur,https://www.facebook.com/gurvinder.kaur1?,,
+Sunny Edupuganti,https://www.facebook.com/Edupuganti7?,,
+Lalitha Velamakanni,https://www.facebook.com/lalitha.velamakanni.1?,,
+Karthik Reddy,https://www.facebook.com/profile.php?id=100015165363310&,,
+Kamal Kanth,https://www.facebook.com/kamal.kanth.58118?,,
+Vasantha Krishna,https://www.facebook.com/profile.php?id=100008210808076&,,
+Bharti Pandit,https://www.facebook.com/bharti.pandit.9?,,
+Ravi Surasani,https://www.facebook.com/Surasaniravireddy?,,
+Dontay Griffin,https://www.facebook.com/dontay.deck?,BMT/COACH,Charlotte-Mecklenburg Schools,,,
+Alok Sharma,https://www.facebook.com/alok.knsharma?,Works,Self,,,
+Ruby Bhatia,https://www.facebook.com/rubybhatia1970?,Works,Self-Employed,,,
+Arpita Dirghangi Arora,https://www.facebook.com/arpita.dirghangi?,,
+एमआईटी सुषमा,https://www.facebook.com/sushmareddy569?,,
+Sudeep Patel,https://www.facebook.com/Sudeep.pat?,Works,Self-Employed,,,
+Chandana Onegramfashion,https://www.facebook.com/chandana.onegramfashion?,,
+Sushma Gupta,https://www.facebook.com/daram.sushma?,,
+Jasmine Sehgal Haynes,https://www.facebook.com/jasmine.sehgal.180?,Financial Advisor,Merill Lynch & Co.,,,
+Shyama Verma,https://www.facebook.com/jkyog.fortlauderdale.5?,,
+Kamini Sharma,https://www.facebook.com/kamini.sharma.52?,,
+Priya Chellani,https://www.facebook.com/priya.chellani.3?,Artistic Director,Indigo Dance Evolution Academy,,,
+Ravi Shankar,https://www.facebook.com/ravi.kalla?,,
+Taran Benipal,https://www.facebook.com/taran.benipal?,,
+Manan Singh Katohora,https://www.facebook.com/manansingh.katohora.7?,,
+Anu Ganesh,https://www.facebook.com/anu.ganesh?,,
+Pramod Kumar,https://www.facebook.com/profile.php?id=100023903464107&,Business Analyst,American Express,,,
+Pandit Vinod Kumar,https://www.facebook.com/profile.php?id=100021144818947&,,
+Prachi Joshi,https://www.facebook.com/prachi.joshi.73?,Works,Lowe's Home Improvement,,,
+Pihu Jethliya,https://www.facebook.com/jethliya12?,Marketing manager,Carolinas Entertainment,,,
+Sippy Kohli,https://www.facebook.com/sippy.kohli?,,
+Jayachandran Srinivasan,https://www.facebook.com/jayachandran.srinivasan?,Technical Consultant,HTC Global Services,,,
+Nitin Goel,https://www.facebook.com/nitin.goel.12139?,Partner,Goels Plaza Banquet & Conference Center,,,
+Ashish Goenka,https://www.facebook.com/goenka.ashu?,Software engineer,Tata Consultancy Services,,,
+Emma Patel Gupta,https://www.facebook.com/emma.patel?,,
+Naveen Yadav,https://www.facebook.com/naveen.yadav.7739?,Senior Analyst,Fidelity Investments,,,
+Anuj Singhal,https://www.facebook.com/anuj.singhal.378?,,
+Mudita Chaturvedi,https://www.facebook.com/cmudita?,,
+Ravi Kumar Myneni,https://www.facebook.com/profile.php?id=100010656247361&,Software Engineer,Fannie Mae,,,
+Mary Cee,https://www.facebook.com/sagayamary.chinniah.5?,,
+Ethnik House,https://www.facebook.com/glady.arokiadoss.1?,,
+Jcreddy Gayam,https://www.facebook.com/jcreddy.gayam?,,
+Ravi Teja,https://www.facebook.com/rtraviteja?,Works,Cognizant Technology Solutions,,,
+Shraddha Gupta,https://www.facebook.com/shrdh.gpt?,,
+Ikhor Events,https://www.facebook.com/IkhorEvents/?ref=gm&,,
+Muthaiya Ramachandran,https://www.facebook.com/muthaiya.ramachandran.9?,,
+Vineet Chhabra,https://www.facebook.com/vineet.chhabra.509?,Works,Tata Consultancy Services,,,
+Prashant Pai,https://www.facebook.com/prashant.pai?,,
+Jay Brass,https://www.facebook.com/ammu.vadivel.167?,Works,Self-Employed,,,
+Ujwal Rangaswamy,https://www.facebook.com/ujwal.ranga?,,
+Amna Irshad,https://www.facebook.com/amna.irshad.399?,,
+Binny Singh,https://www.facebook.com/binny.singh.7792?,,
+Rajasekhar Reddy,https://www.facebook.com/rajasekhar.reddy.77?,,
+Steven J Mwack,https://www.facebook.com/profile.php?id=100004368918744&,,
+Vandana Gudwani Sodhi,https://www.facebook.com/vandana.gudwani?,,
+Monica Chinni,https://www.facebook.com/monica.chinni.79?,,
+Bndi Sndhu,https://www.facebook.com/sindhu.bandi?,,
+Snigdha Petluru,https://www.facebook.com/snigdha.petluru?,,
+Krupanidhi Cruz,https://www.facebook.com/krupanidhicruz?,Team Member,ShortsAdda,,,
+Aruna Cherku,https://www.facebook.com/aruna.cherku?,,
+San Kamuni,https://www.facebook.com/san.kamuni.9?,Business management,Entrepreneur,,,
+Lachu Baskar,https://www.facebook.com/lydia.bas.18?,,
+Akash Agrawal,https://www.facebook.com/akki22akash?,NC State University,
+Lakshminarayana Ravuri,https://www.facebook.com/lakshminarayana.ravuri3?,,
+Anil Gupta,https://www.facebook.com/profile.php?id=1435765337&,Matthews,North Carolina,,,
+Ved Veda,https://www.facebook.com/ved.veda.9?,Works,UNC Charlotte,,,
+Vasantha Bheemidi,https://www.facebook.com/vasantha.bheemidi.838?,,
+Soumya Ammu,https://www.facebook.com/Ammusuniquecollections?,,
+Omar Gomez,https://www.facebook.com/awz.soel?,,
+Sirisha Swarup,https://www.facebook.com/sirisha.shines?,Vignan's Institute of Information Technology,
+Krishna Raj,https://www.facebook.com/krishy1?,,
+Arvindkanth Suriakanth,https://www.facebook.com/arvind.naranappa?,,
+Sadaf Mansoori,https://www.facebook.com/s.tariq.21?,,
+Owais Sohail,https://www.facebook.com/avvaiz?,,
+Veeru Ganne,https://www.facebook.com/veeru.ganne?,,
+Pavan Kumar,https://www.facebook.com/pavandeva?,,
+Rohila Reddy,https://www.facebook.com/rohilar?,,
+Ankit Jasani,https://www.facebook.com/jasaniankit?,,
+Ranga Pulipati,https://www.facebook.com/ranga.pulipati?,Consulting Tech. Manager,Oracle Financial Services Software,,,
+Harini Narasimhan,https://www.facebook.com/harini.narasimhan.79?,,
+Rajan Mistry,https://www.facebook.com/rajan.mistry.16?,Works,S3 Catering,,,
+SriSwathi Sreedatta,https://www.facebook.com/swathi.pulavarthi.3?,,
+Bhargavi Kumar Kumar,https://www.facebook.com/bhargavikumar.kumar?,,
+Ripal Shah,https://www.facebook.com/ripal.shah.714?,,
+Bhavana Tripuraneni,https://www.facebook.com/bhavana.tripuraneni?,,
+Anchal Patel,https://www.facebook.com/patel.anchal?,,
+Nitu Deo,https://www.facebook.com/deonitu?,Engineer,Acme Engineering College,,,
+Anubha Adwani,https://www.facebook.com/anubha.adwani?,Senior Consultant,NTT DATA Services,,,
+Nagesh Juluru,https://www.facebook.com/njina4?,,
+Snigdha Chinnam,https://www.facebook.com/snigdha.chinnam?,,
+Neeta Puri,https://www.facebook.com/neeta.puri.73?,Owner,NEETA PURI'S EXPRESSIONS,,,
+Sanjeev Kanekal,https://www.facebook.com/sanjeev.kanekal?,,
+Praveen Rai,https://www.facebook.com/praveenrai15?,,
+Praneeth Ala,https://www.facebook.com/PraneethAla?,,
+Mausami Doshi,https://www.facebook.com/mausami.doshi.7?,,
+Visalakshi Ananthapadmanaban,https://www.facebook.com/visalakshi.ananthapadmanaban?,Software Engineer,Tata Consultancy Services,,,
+Nida Ali,https://www.facebook.com/ALIKhan3ff?,,
+Ravi Reddy,https://www.facebook.com/raviwanderer?,Works,Self-Employed,,,
+Jayanthi Pradeep,https://www.facebook.com/jayanthi.tarimela?,Works,My wish mart.com,,,
+Kadhiravan Thangavelu,https://www.facebook.com/kadhiravanthangavelu85?,,
+Ruby Subramanian,https://www.facebook.com/ruby.subramanian.71?,,
+Jacob Abraham,https://www.facebook.com/jacob.abraham.94043?,IT Analyst,Tata Consultancy Services,,,
+Priyanka Sivakiran,https://www.facebook.com/priyanka.arun?,,
+Sirisha Shri,https://www.facebook.com/saanu.shree.1?,,
+Sowmya Kalyanam,https://www.facebook.com/sowmya.kalyanam.1?,,
+Priyanka Sivakiran,https://www.facebook.com/PriyaSivakiran?,Works,Self-Employed,,,
+Siddharth Bisht,https://www.facebook.com/bisht.siddharth?,Manager,Cognizant,,,
+Sandhya Reddy,https://www.facebook.com/mekala.sandhya.1?,Studying,No,,,
+Adhish Thite,https://www.facebook.com/adhish.thite?,,
+Dayanand Rawool,https://www.facebook.com/DayanandR?,,
+Manali Ghosh,https://www.facebook.com/profile.php?id=100009126588646&,,
+Jyoti Thakral,https://www.facebook.com/jyoti.thakral?,Software engineer,Ingersoll Rand,,,
+Jaspreet Suchit Sharma,https://www.facebook.com/jaspreet.sharma.161?,,
+Shyamla Devi,https://www.facebook.com/shyamla.devi.1?,,
+Ikhor Handle,https://www.facebook.com/profile.php?id=100013835382700&,,
+Divya Kulkarni,https://www.facebook.com/divya.kulkarni.14?,,
+Kan Mani,https://www.facebook.com/kans.anbu?,,
+Pranav Jha,https://www.facebook.com/pranav.jha.376?,Works,Belk,,,
+Dipali Shah,https://www.facebook.com/profile.php?id=100009403793027&,,
+Shruti Paida,https://www.facebook.com/shruss723.paida?,,
+Rajeev Kumar,https://www.facebook.com/profile.php?id=100004943866802&,Manager,Major Financial Institution,,,
+Vaishnavi Muthukumar,https://www.facebook.com/profile.php?id=100009386375639&,,
+Radhi Cherukuri,https://www.facebook.com/radhich?,Works,Keller Williams Realty,Inc.,,
+Navya Mikkilineni,https://www.facebook.com/navya.mikkilineni?,,
+Mohamed Bilal,https://www.facebook.com/agmdbilal?,Works,Cognizant,,,
+Tulasi Sunkara,https://www.facebook.com/sweetysunkara?,,
+Sunitha Sounderrajan,https://www.facebook.com/sunitha.sounderrajan?,,
+Subba Rao,https://www.facebook.com/subba.rao.750?,Gateway Community and Technical College,
+Marri Deepthireddy,https://www.facebook.com/deepthireddymarri?,,
+Venkat Suryadevara,https://www.facebook.com/venkat.surya.562?,,
+Sandeep Devaraj,https://www.facebook.com/sandeep.dev.18?,Works,Randstad,,,
+Kamaxi Shah,https://www.facebook.com/kamaxi.shah.3?,Owner,Business,,,
+Chinmay Rawool,https://www.facebook.com/chinmay811?,Works,Hughes Network Systems,,,
+Savitha Ramesh,https://www.facebook.com/savitha.ramesh.5?,,
+Rajesh Reddy,https://www.facebook.com/BOND000007?,,
+Sonu Shaw,https://www.facebook.com/sohil.shah.92?,CEO & Founder,SS Event Services & Party Rentals,,,
+Preeti Khatri,https://www.facebook.com/preeti.khatri.39?,,
+Sanam Mahtani,https://www.facebook.com/sanam.mahtani.7?,Owner,ASIAN DIVAS,,,
+Harshitha BC,https://www.facebook.com/harshitha.hbc?,Mysore,Karnataka,,,
+Ashwin Daiwadnya,https://www.facebook.com/ashwin.daiwadnya.3?,Project Lead,Larsen & Toubro Infotech,,,
+Sunidhi Gupta,https://www.facebook.com/sunidhi.gupta.161?,,
+Gattu Anand Sai Gupta,https://www.facebook.com/anandsaigupta?,,
+Abhi Don,https://www.facebook.com/abhilash.reddy.940098?,,
+Shweta Civirala,https://www.facebook.com/shweta.aws?,,
+శ్వేత రావి,https://www.facebook.com/swetha.raavi?,,
+Mikul Mistry,https://www.facebook.com/mikulmistry?,,
+Devi Challapalli,https://www.facebook.com/devi.challapalli.5?,M.R. College of Education,
+Curly Shaan,https://www.facebook.com/CurlyShaan?,,
+Rachit Choksi,https://www.facebook.com/rachit.choksi.9?,,
+Darshak Mehta,https://www.facebook.com/darshak.mehta.9?,Graduate Research Assistant,UNC Charlotte,,,
+Sridhar Ravinuthala,https://www.facebook.com/sridhar.ravinuthala?,,
+Devi Ambavaram,https://www.facebook.com/devi.ambavaram?,Works,TIAA,,,
+Gurjot Singh Dhaliwal,https://www.facebook.com/1990singh?,,
+Naga Lakshmi Kothamasu,https://www.facebook.com/I.N.lakshmi?,,
+Prashanth Jaganmohan,https://www.facebook.com/prashanth.jaganmohan?,Research assistant,University of North Carolina,,,
+Patel Bhavesh Rina,https://www.facebook.com/profile.php?id=100000118642177&,,
+Chaya Voorakaranam,https://www.facebook.com/chaya.voorakaranam?,,
+Elias P Mohammed,https://www.facebook.com/elias.p.mohammed?,,
+Nida Pawar Shariff,https://www.facebook.com/nida.p.shariff?,,
+Megha Krishnamurthy,https://www.facebook.com/meghu27?,Software engineer,Société Générale Global Solution Centre Pvt. Ltd.,,,
+Divyesh Hande,https://www.facebook.com/divyeshh1?,SPS EIT,HDR,,,
+Ramesh Kusuma,https://www.facebook.com/profile.php?id=100004979715768&,,
+Shirisha Kusuma,https://www.facebook.com/shirisha.kusuma.1?,,
+Poonam Rani,https://www.facebook.com/poonam.rani.395?,Employer Installation Specialist,UnitedHealth Group,,,
+Sarthak Dash Mohapatra,https://www.facebook.com/sarthak.dashmohapatra?,,
+Kiran Imad,https://www.facebook.com/kimadran?,,
+Aaradhya Mehta,https://www.facebook.com/aaradhya.mehta?,,
+Medha Gujjar,https://www.facebook.com/medha.gujjar?,Client Success Consultant,Go Dreamz,Inc,,
+Sagar Achal Shah,https://www.facebook.com/sagar14892?,Sr. Business Analyst,Capital One,,,
+Touseef Patel,https://www.facebook.com/tOsArOcKsSs?,,
+Danis Lalan,https://www.facebook.com/danis.lalan?,,
+Bhavna Monga Sethi,https://www.facebook.com/bhavna.monga.9?,Underwiting,Torus Insurance,,,
+Madhu Gurthy,https://www.facebook.com/madhugurthy?,Director,Bricks 4 Kidz Exton Chester County,,,
+Ankit Patel,https://www.facebook.com/profile.php?id=100000330716147&,Sardar Patel University,
+Ramesh K. Singh,https://www.facebook.com/ramesh450?,,
+Swati Kapoor,https://www.facebook.com/swati.mutreja?,,
+Sunniha Patterson,https://www.facebook.com/profile.php?id=100008116246889&,Broker in Charge,Wilson Realty,,,
+Planners Parva,https://www.facebook.com/profile.php?id=100021793696986&,,
+Rebecca Dawson,https://www.facebook.com/diana.dawson.7528?,Works,Self-Employed,,,
+Madiha Qureshi,https://www.facebook.com/madiha.qu?,Realtor®/Broker,Century 21 Vanguard,,,
+Nagireddy Ashwini Reddy,https://www.facebook.com/ashwini.nagireddy?,,
+Divya Ilango,https://www.facebook.com/divya.ilango.71?,,
+Swetha Reddy,https://www.facebook.com/swethanagireddy?,,
+Kishore Thummala,https://www.facebook.com/profile.php?id=100018334721644&,,
+Digesh Joshi,https://www.facebook.com/digesh.joshi?,,
+Hariharan Swaminathan,https://www.facebook.com/sharyharan?,,
+Shishir Agrahari,https://www.facebook.com/shishir26agrahari?,,
+Harshika Rohith,https://www.facebook.com/harshika.rohith?,,
+Carnell Parrish,https://www.facebook.com/carnell.parrish.946oqqqpqppppp?,Activities Coordinator,Spring Village,,,
+Lal Chand Motwani,https://www.facebook.com/lalchand.korica?,Senior product specialist,Newton Health Care Pvt. Ltd,,,
+Hetal Meruliya,https://www.facebook.com/hetal.meruliya.146?,Veer Narmad South Gujarat University,
+Sisir Penugonda,https://www.facebook.com/sisir.penugonda?,Works,Bank of America,,,
+Vatan Poonia,https://www.facebook.com/vatan.poonia?,Associate Solar PV Engineer,Clean Energy Associates,,,
+Sree Kumar,https://www.facebook.com/sreerocks2006?,Assistant System Engineer,Tata Consultancy Services,,,
+Rav Veli Neni,https://www.facebook.com/rvnlk?,,
+Vijay TA,https://www.facebook.com/vijay.ta.102?,,
+Dishant Banga,https://www.facebook.com/dishant.banga?,Graduate Research Assistant,UNC Charlotte,,,
+Jake Biedrzycki,https://www.facebook.com/profile.php?id=13947210&,,
+Priyanka Bhange Kuranjekar,https://www.facebook.com/priyanka.bhange?,,
+Swapna N Vamsee Samatam,https://www.facebook.com/docswapna?,,
+Nilanjan Chatterjee,https://www.facebook.com/nil.numero.uno?,,
+Senthil Palanisamy,https://www.facebook.com/senthil.palanisamy.330?,,
+Vishnu Kotipalli,https://www.facebook.com/Vishnu.Kotipalli?,NC State University,
+Amin Pirani,https://www.facebook.com/amipir?,,
+Piyusha Biswas,https://www.facebook.com/piyushab1?,,
+Arvind Mahajan,https://www.facebook.com/mahajan.arvind?,Owner,The Goddard School,,,
+Santhalia Sarita,https://www.facebook.com/sarita.santhalia?,,
+Madhavi Shah,https://www.facebook.com/madhavi.shah.714?,Works,Tata Consultancy Services,,,
+Meenakshi Shukla,https://www.facebook.com/meenakshi.shukla.969?,,
+Sachin Cheruku,https://www.facebook.com/cheruku.sachinreddy?,College of Graduate Studies,Texas A&M University-Kingsville,,,
+Pausha Bhatt,https://www.facebook.com/pausha.bhatt?,,
+Triveni Bomma,https://www.facebook.com/triveni.bomma?,,
+Swa Ti,https://www.facebook.com/swati.singhal?,,
+Karthik Ranga,https://www.facebook.com/profile.php?id=100003957322148&,,
+Rakesh Belchandan,https://www.facebook.com/rakesh.belchandan?,,
+Mini Devgan,https://www.facebook.com/mini.devgan?,,
+Prerana Singh,https://www.facebook.com/prerana.20?,Intern,Innodata,,,
+Rajesh Mulcha,https://www.facebook.com/rajesh.mulcha?,Tech Manager,Bank of America,,,
+पुप्पला चैतन्य,https://www.facebook.com/chaitanya.puppala?,,
+CA Vaibhavi G Raam,https://www.facebook.com/cavaibhavi.katta?,,
+Mythili Logesh,https://www.facebook.com/mythili.logesh?,,
+Nikhita Anudeep,https://www.facebook.com/nikhita.kv?,,
+Glasha Prabhu D,https://www.facebook.com/glasha.prabhud?,Mamata Medical College,
+Ameet Lilani,https://www.facebook.com/BestIndianDJofAtlanta?,Works,Nirvana Events,,,
+Akhila Walthati,https://www.facebook.com/akhila.walthati1?,,
+Abdul Mazid,https://www.facebook.com/mazidphonesltd?,Works,Self-Employed,,,
+Nisha Karan,https://www.facebook.com/profile.php?id=100011688258217&,,
+Ashish Kothari,https://www.facebook.com/ashish.kothari.5682?,Owner,Kotharijewelry.com,,,
+Ram Allam,https://www.facebook.com/ram.allam.581?,,
+Kishore Reddy Morsu,https://www.facebook.com/mkrrannu?,DevOps,Metlife,,,
+Vinay Parikh,https://www.facebook.com/vinay.parikh.90?,,
+Viral Shah,https://www.facebook.com/viral.shah.9674?,,
+Vidu Jain,https://www.facebook.com/VIDUJ?,,
+Poppy Ch,https://www.facebook.com/poppi.ch.1?,,
+Rashmi Vijaybala,https://www.facebook.com/rashmivivek.srivastava.9?,,
+Raj Malhotra,https://www.facebook.com/profile.php?id=100003122713549&,Businessperson,Ludhiana,Punjab,India,
+Sandeep Vanam,https://www.facebook.com/sandeep.vanam?,,
+Aisha Mehmood,https://www.facebook.com/aisha.mehmood.39?,,
+Anirudh Lakshminarayanan,https://www.facebook.com/anirudh.ln?,,
+Janaki Ramanathan,https://www.facebook.com/rjanaki?,,
+Ashwini Patil,https://www.facebook.com/profile.php?id=100005272932904&,Works,Va Tech Wabag ltd,pune,,
+Bijula Balakrishnan,https://www.facebook.com/bijulabk?,,
+Sindhuja Konda,https://www.facebook.com/kondasindhuja454?,Works,Student,,,
+Abi Shek,https://www.facebook.com/abithegreat?,Manasa Gangotri Post Graduate College,
+Vasudha Srinivasan Iyer,https://www.facebook.com/vasudha.srinivasan.50?,,
+Gauri Manglik,https://www.facebook.com/gaurimanglik?,,
+Shweta Sagar,https://www.facebook.com/shweta.sagar.71?,,
+Devendra Vora,https://www.facebook.com/devendra.vora?,Community care,Community,,,
+Anuradha Vasan,https://www.facebook.com/anuradha.vasan?,,
+Swathi Chakri,https://www.facebook.com/swathi.chakri?,,
+Hemal Savla,https://www.facebook.com/hemal.savla.98?,Co-founder,Savla International,,,
+Avee Sa,https://www.facebook.com/avee.sa.5?,,
+Zeba Masood,https://www.facebook.com/zeba.masood?,Owner,PoshStyl,,,
+Vicky Savla,https://www.facebook.com/vicky.savla?,Principal Consultant,Cognizant North America,,,
+Abhi R'dy,https://www.facebook.com/abhi.reddivari?,,
+Maysaa Canada,https://www.facebook.com/profile.php?id=100009942018896&,Works,Maysaa-Exclusively Divine,,,
+Srishti Jain,https://www.facebook.com/sjsrishti?,College Station,Texas,,,
+Ashokanand Deo,https://www.facebook.com/deoashokanand?,,
+Kanakadurga Sivaraju,https://www.facebook.com/harini.sivaraju?,,
+Shilpa Namala,https://www.facebook.com/shilpa.sunkara.31?,,
+Rajalakshmi Sakthivel,https://www.facebook.com/Senratutu?,,
+Geeta Kapoor,https://www.facebook.com/geeta.k.kapoor?,Works,NewYork Life Insurance company,,,
+Deepak Vasanad,https://www.facebook.com/deepu.vn1?,,
+Jamal Ch,https://www.facebook.com/jamalch11?,,
+Jamichael Howard,https://www.facebook.com/jamichael.howard.7?,Works,Self Employed (Business),,,
+Deekz Nani,https://www.facebook.com/deekz.nani?,,
+Bindisha P Patel,https://www.facebook.com/bindisha.patel?,,
+Monica Jagga,https://www.facebook.com/monica.jagga.5?,Sri Sathya Sai Higher Secondary School,Prasanthi Nilayam,,,
+Suyash Nande,https://www.facebook.com/suyash.nande?,,
+Ayush Gupta,https://www.facebook.com/ayush.gupta.942?,Software Developer,MicroD,,,
+Kajal Patel,https://www.facebook.com/profile.php?id=100009392118176&,Real Estate Broker/Agent,Keller Williams Realty,Inc.,,
+Janufa Begum,https://www.facebook.com/janufa.begum?,PSGR Krishnammal College for Women,Coimbatore,,,
+Pragyanidhi Tanksale Sarkar,https://www.facebook.com/pragyanidhi?,Works,Avaya,,,
+Purna Akkaladevi,https://www.facebook.com/profile.php?id=100011688662721&,Works,Self-Employed,,,
+Naveena Reddy,https://www.facebook.com/naveena.reddy.796?,,
+Shriya S,https://www.facebook.com/profile.php?id=100012380372297&,,
+Ushaswini Vinnakota,https://www.facebook.com/vinnakota.ushaswini?,,
+Erum Hussain,https://www.facebook.com/erumshussain?,,
+Vamsee Lella,https://www.facebook.com/vamsee.lella?,Real Estate Investor,Sai Dream Homes LLC,,,
+Aamir Akhtar,https://www.facebook.com/kool.aamir?,,
+Amit Panday,https://www.facebook.com/amit.panday.98871174?,,
+Sudha MJ,https://www.facebook.com/sudha.mj.1?,,
+Afrina Mubarak,https://www.facebook.com/afrina192?,,
+Saritha Kolli,https://www.facebook.com/saritha.kolli?,,
+Bijal N Mamta Patel,https://www.facebook.com/bijal.patel1?,,
+Ali Shah,https://www.facebook.com/profile.php?id=100010495815388&,Works,Self-Employed,,,
+Syed Arif Shah,https://www.facebook.com/syed.a.shah.3705?,Direct Tax Adviser,Shell Pakistan Limited,,,
+Rajarajeswari Yeleswarapu,https://www.facebook.com/rajarajeswari.Nimmagadda?,,
+Diana Joy,https://www.facebook.com/diana8719?,,
+Mridula Amerneny,https://www.facebook.com/mridula.amerneny?,Developer,The Vanguard Group,,,
+Swapna Indarapu,https://www.facebook.com/swapna.indarapu?,Vaagdevi Degree and Post Graduate College,
+Sindhu Aitha,https://www.facebook.com/sindhu.aitha?,,
+Sandeepsangeeta Dash,https://www.facebook.com/sandeepsangeeta.dash.5?,,
+Santosh Kumar,https://www.facebook.com/profile.php?id=100001385545451&,Teaching assistant,North Carolina A&T State University,,,
+Smitha Nagalla,https://www.facebook.com/smitha.nagalla?,,
+Nimish Gupta,https://www.facebook.com/nimishgupta2010?,,
+Ashwin Shah,https://www.facebook.com/ashwin.shah.5473?,Works,Retired,,,
+Samhitha Upadhya,https://www.facebook.com/samhitha.upadhya?,,
+Archana Gadde,https://www.facebook.com/archana.gadde?,,
+Monika Thourani Hablani,https://www.facebook.com/monika.hablani.7?,,
+Deepti Sarode- Bharambe,https://www.facebook.com/deepti.bharambe?,,
+Kannan Ram,https://www.facebook.com/kannan.ram.1848?,,
+Sunitha Nerella,https://www.facebook.com/sunitha.nerella.75?,,
+Chandni Patel,https://www.facebook.com/chandnipatel01?,,
+Pavan Kumar Surapaneni,https://www.facebook.com/pavan.kumar.54922169?,Indiana State University,
+Jas Kaur,https://www.facebook.com/jas.kaur.37?,,
+Dip Thakar,https://www.facebook.com/dip.thakar.3?,,
+Anu Kashyap,https://www.facebook.com/anu.kashyap.714?,,
+Keerthi Kalyan,https://www.facebook.com/keerthi.subramanian.7?,Works,Cognizant,,,
+Strange Curry,https://www.facebook.com/strange.curry.9?,Works,Self-Employed,,,
+Meghana Patel,https://www.facebook.com/meghanapayal.patel?,,
+Subha Seedee,https://www.facebook.com/subha.seedee?,,
+Mariam Naeem,https://www.facebook.com/mariam.naeem.56?,,
+Geetha Vallabhaneni,https://www.facebook.com/geetha.vallabhaneni?,,
+Suneetha Kumar,https://www.facebook.com/suneetha.kumar.923?,,
+Anand T Patel,https://www.facebook.com/anand.t.patel.9?,,
+Rakesh Harish,https://www.facebook.com/rakeshhharish?,,
+Teresa McVey,https://www.facebook.com/teresa.mcvey1?,,
+SanthiVenkata Sri,https://www.facebook.com/profile.php?id=100008037152361&,,
+G S Songara,https://www.facebook.com/Gssongara?,Surat,Gujarat,,,
+Divya Jha,https://www.facebook.com/divya.jha.52?,,
+Jay Tharwani,https://www.facebook.com/jay.tharwani.9?,,
+Mohammed Azamuddin,https://www.facebook.com/azamsab?,Unix/Linux Systems Engineer,LPL Financial,,,
+Hari Narayanan,https://www.facebook.com/hari.nara.50?,,
+Prashanth Pallu,https://www.facebook.com/prashanth.pallu?,,
+Shabira Shahtaj,https://www.facebook.com/shabira.shahtaj?,,
+Manish Dharod,https://www.facebook.com/manish.dharod?,,
+शिवा शरण पाटिल,https://www.facebook.com/BorntoRuleshiv?,,
+Balakrishna Are,https://www.facebook.com/balakrishna.are?,,
+Swati Yadav,https://www.facebook.com/swati.yadav.90226?,,
+Jeremy Laney,https://www.facebook.com/jeremy.laney.161?,General Manager,Affordable Handyman Service of Charlotte NC,,,
+Chandani Raj,https://www.facebook.com/khushi.luv1?,,
+Sohbash Yousaf Khan,https://www.facebook.com/DVDJSOHBASH?,,
+Rajeshwari Reddy,https://www.facebook.com/rajeshwari.reddy.79?,,
+Anusha Reddy,https://www.facebook.com/keerthana.reddy.1238?,Sree Dattha Institute of Engineering and Science,
+Lakshmi Jayasekaran,https://www.facebook.com/Lakshmi.AJ?,Works,Cognizant,,,
+Saravanan Govindarajalu,https://www.facebook.com/saravanan.govindarajalu?,Works,AIG,,,
+Sai Anvidesigns,https://www.facebook.com/sai.anvidesigns.5?,,
+JignashaRanjan Babubhai Naik,https://www.facebook.com/jignasha.vashi?,,
+Mani Kanta,https://www.facebook.com/mani.kanta.31542841?,Network Architect,CNBC,,,
+Spandana Ravulapalli,https://www.facebook.com/spandana.ravulapalli?,,
+Sri Edupuganti,https://www.facebook.com/sri.edupuganti.7?,,
+Sandhya Kanukollu,https://www.facebook.com/sandhya.kanukollu?,,
+Alok Sabherwal,https://www.facebook.com/alok.sabherwal?,Works,Self-Employed,,,
+Rashmi Nair,https://www.facebook.com/rashmi.nair.351?,,
+Srikanth Guntupalli,https://www.facebook.com/srikanth.guntupalli.14?,Works,Bank of America,,,
+Arwa Kanchwala,https://www.facebook.com/arwa.kanchwala.96?,,
+Anuja Shah Parikh,https://www.facebook.com/anuja.shahparikh?,Works,USA TODAY,,,
+Syed Abdul Quader,https://www.facebook.com/callmesaqs?,,
+Vasu Pradha,https://www.facebook.com/vasu.rabishek?,Associate consultant/ Junior BA,Oracle Financial Services Software,,,
+Neeta Patel Rabara,https://www.facebook.com/nhrabara?,,
+Susmit Bardia,https://www.facebook.com/susmit.bardia?,Senior Software Engineer,ADP,,,
+Shanthi Priya,https://www.facebook.com/shanthi.priya.946?,,
+Soorya Sunoo,https://www.facebook.com/soorya.sunoo?,Assistant director and actor,Industri film Tamil,,,
+Suresh Alahari,https://www.facebook.com/alaharivsb?,,
+Aishwarya Velidi,https://www.facebook.com/aishwarya.velidi?,Apps Systems Engineer Consultant,Wells Fargo,,,
+Tony Parekh,https://www.facebook.com/RudviTechnology?,Rudvi Technology,Self-Employed,,,
+Rupa Devi Kanagala Talasila,https://www.facebook.com/Kanagalar?,Business Analyst,TIAA,,,
+Saira Farogh,https://www.facebook.com/saira.farogh?,,
+Raveena Mahtani,https://www.facebook.com/raveena.mahtani.108?,Works,Independent Zija Distributor,,,
+Sugyani Patro,https://www.facebook.com/sugyani.patro.7?,Works,Wells Fargo,,,
+Saumya Singh,https://www.facebook.com/saumya.lovisha?,,
+Lalu Patel,https://www.facebook.com/lalu.patel.5220665?,Marketing management,Business,,,
+Demetrius Richbeforethirty Brown,https://www.facebook.com/richbeforethirty?,Founder (company),Rich before thirty,,,
+Pirya Matai,https://www.facebook.com/pirya.matai?,Founder,TuLa Entertainment,,,
+Leela Reddy,https://www.facebook.com/leela.reddy.52?,,
+Mahesh Chatlani,https://www.facebook.com/mahesh.chatlani?,,
+Bobbie Soman,https://www.facebook.com/bobbie.soman?,,
+Bhavna Kapoor Mehta,https://www.facebook.com/bhavna.k.mehta.5?,State College,Pennsylvania,,,
+Anudeep Bhoopalam,https://www.facebook.com/abhoopalam?,,
+శ్రీకాంత్ కొత్తపల్లి,https://www.facebook.com/sreez.kothapalli?,Database Engineer,QBE North America,,,
+Raje Nimma,https://www.facebook.com/rajeswari.nimmagadda.3?,,
+Jane Grace,https://www.facebook.com/organicingredientsinc?,Works,8Elements,,,
+Dhiraj Mukhi,https://www.facebook.com/dhirajmukhi?,,
+Rupal Patel,https://www.facebook.com/Rupal.Kanthabharan?,,
+Swati Agarwal,https://www.facebook.com/swati.agarwal.984?,,
+Ramya Harsh,https://www.facebook.com/ramya.harsh?,Business Owner,Ram's Cakery,LLC,,
+Sirisha Madhusudan,https://www.facebook.com/sirishamadhusudan?,,
+Sripriya Sharavanan,https://www.facebook.com/sripriya.sharavanan?,,
+Usha Priya,https://www.facebook.com/ushapriyadarshini007?,,
+Geeta Sharma,https://www.facebook.com/geeta.sharma.773?,CEO & Founder,GR Fashion,,,
+భవిత్ రెడ్డి,https://www.facebook.com/rbg.reddy?,,
+Bala Aditya Devineni,https://www.facebook.com/AdityaBalaDevineni?,Works,Student,,,
+Tony Jennette,https://www.facebook.com/tony.jennette.9?,Owner-Operator,Tony's Outrigger,,,
+Shivani Santosh Raghuvanshi,https://www.facebook.com/profile.php?id=100016064048089&,,
+Raghu Mothukuri,https://www.facebook.com/the1raghu?,Works,Bank of America,,,
+Rahul R Nair,https://www.facebook.com/rahulnair22?,MTS Intern,Nutanix,,,
+Surbhi Pagar,https://www.facebook.com/surbhi.pagar?,,
+Madhulika Chaudhry,https://www.facebook.com/madhulika.chaudhry?,The University of Texas,Austin,,,
+Vijay Nagpal,https://www.facebook.com/vijay.nagpal.31?,Real Estate Agent/Broker,Scarlett Real Estate,,,
+Pushpit Thohan,https://www.facebook.com/Pushpit?,,
+Priya Balaji,https://www.facebook.com/priya.balaji.125?,,
+Om Prakash,https://www.facebook.com/omprakashkarn?,,
+Ravi Kumar,https://www.facebook.com/profile.php?id=100015670630077&,Factory,12-12-12 Marathon of Sarasota,,,
+Lalitha Bolisetty,https://www.facebook.com/lalitha.bolisetty?,Bapatla Engineering College,
+Vani Yanamandra,https://www.facebook.com/vanisamba.yanamandra?,,
+Fernandes Nisha,https://www.facebook.com/profile.php?id=100010743245072&,,
+Chirag Sheth,https://www.facebook.com/shethchirag79?,,
+Anura De Silva,https://www.facebook.com/anura.desilva.779?,CEO,Lara Travels,,,
+Priya Smiley,https://www.facebook.com/profile.php?id=100015317471649&,,
+DC HathaYoga,https://www.facebook.com/dc.hathayoga.3?,Yoga Teacher,Isha Foundation,,,
+Pooja Jayant Choudhary,https://www.facebook.com/pooja.shinde.108?,,
+Lalitha Sudhira Kondapally,https://www.facebook.com/lalithasudhira.kondapally?,,
+Tasneem Palitanawala,https://www.facebook.com/tasneem.palitanawala?,Manager,Tasneem's Designs,,,
+Moon Patel,https://www.facebook.com/profile.php?id=100013935940179&,,
+Zaheena Kashif,https://www.facebook.com/zaheena?,Software developer,Rackspace,,,
+Ambika Nyamagoudar,https://www.facebook.com/ambika.nyamagoudar?,,
+Sujatha Bharathkumar,https://www.facebook.com/sujatha.bharathkumar?,,
+Ranjani Nagaraj,https://www.facebook.com/ranjani.s.5?,,
+Nanda Lokhande,https://www.facebook.com/profile.php?id=100015161855891&,Bharati Vidyapeeth College of Engineering,
+Nanda Lokhande Doiphode,https://www.facebook.com/nanda.lokhandedoiphode?,,
+Shalani Udayakumar,https://www.facebook.com/shalani.uday?,,
+Anju Sebastian,https://www.facebook.com/anju.sebastian?,Owner,Self-Employed,,,
+Prakash Mirchiwala,https://www.facebook.com/profile.php?id=100015439656848&,,
+Sharavanan Shanmugam,https://www.facebook.com/sharavanan.shanmugam?,,
+Dineshbhai Patel,https://www.facebook.com/dineshbhai.patel.1675275?,,
+Añu Sharma,https://www.facebook.com/anu.vishaal?,Works,Self-Employed,,,
+Debra Kaye Starks-Logan,https://www.facebook.com/texaschoctaw45?,The best i can be,Perfect Housewife: Tips for the domestic goddess,,,
+Vinodini Sureshkumar,https://www.facebook.com/profile.php?id=100005242157406&,,
+Aravin Rangarajan,https://www.facebook.com/aravinr?,,
+Keerthi Chandra,https://www.facebook.com/profile.php?id=518472756&,,
+Amit Dhowalaghar,https://www.facebook.com/amit.dhowalaghar?,Works,Bank of America,,,
+Vaishali Kapadia,https://www.facebook.com/vaishali.kapadia?,,
+Akshara Raghuram Iyer,https://www.facebook.com/akshara.raghuram?,,
+Grace Remalya,https://www.facebook.com/remalya?,,
+Shweta Wankhede,https://www.facebook.com/shweta.wankhede.94?,,
+Hershey Han Shiv,https://www.facebook.com/hhanbal?,,
+Apurva Parikh,https://www.facebook.com/apurva.parikh.5?,,
+Krishnateja Borra,https://www.facebook.com/BKTeja?,Player,Andhra Cricket Association,,,
+Swathi Priya,https://www.facebook.com/swathi.priya.98871?,,
+Bilal Ahmed Ansari,https://www.facebook.com/BilalAhmedAnsari6?,,
+Sri Vasili,https://www.facebook.com/sri.vasili?,,
+Ravi Singh,https://www.facebook.com/ravi5740?,Owner,Syncend Technologies,,,
+Nirmala Prabhakaran,https://www.facebook.com/nirmala.prabhakaran?,,
+Rashij JI,https://www.facebook.com/rashij.ja?,Works,Rashmi's Boutique,,,
+Rati Ajmera,https://www.facebook.com/rati.j.ajmera?,,
+Shaveta Mittal,https://www.facebook.com/profile.php?id=100011311746234&,,
+Zalak Patel,https://www.facebook.com/zalak.patel.3348390?,,
+Suresh Pati,https://www.facebook.com/suresh.pati.752?,,
+Rubaina Preeti Patni,https://www.facebook.com/rubaina.patni?,,
+Gopal Kasarla,https://www.facebook.com/grkasarla?,,
+Joe Patel,https://www.facebook.com/profile.php?id=100010130111746&,,
+Srujanaker Kade,https://www.facebook.com/sruj.dada?,,
+Soniya Bangar,https://www.facebook.com/soniya.bangar.9?,,
+Durga Lakshmi,https://www.facebook.com/neelapaladurgalakshmi?,,
+Sardar Shakeel,https://www.facebook.com/sardar.shakeel.5243?,,
+Darshana Patel,https://www.facebook.com/darshana.patel.3975?,,
+Harinath Mb,https://www.facebook.com/mbharinath?,,
+Phani Raju,https://www.facebook.com/profile.php?id=100011442401090&,,
+Kashif Chughtai DJ-kash,https://www.facebook.com/kashif.djkash?,Associate,LegalShield,,,
+Tulasi Bodasingu,https://www.facebook.com/tulasi.bodasingu?,,
+Ravali Reddy,https://www.facebook.com/ravali.reddy.589?,,
+Shreya Patel,https://www.facebook.com/profile.php?id=100011143960953&,Works,Self-Employed,,,
+Chandu Ckm,https://www.facebook.com/reachmeatck?,,
+Salma Rizvi,https://www.facebook.com/salma.rizvi.14?,,
+Nagendra Nagala,https://www.facebook.com/nagendra.nagala?,Kshatriya College of Engineering,
+Akila Ravichandran,https://www.facebook.com/akila.ravichandhran?,,
+Aar Aar,https://www.facebook.com/profile.php?id=100010591329499&,Kolkata,
+Gayathri Shanmugam,https://www.facebook.com/gayathri.shanmugam.509?,,
+Alpana KU,https://www.facebook.com/alpana.gupta.395?,,
+Vamsi Krishna Tarigopula,https://www.facebook.com/vamsi.tari?,,
+Arun Balasubramanian,https://www.facebook.com/arun.b.narayanan?,Works,Cognizant,,,
+Pooja Roy,https://www.facebook.com/pooja.c.roy?,,
+Linda Prem,https://www.facebook.com/udesignvmakejewels?,,
+Anusha Gogineni,https://www.facebook.com/raju.mariy.1?,,
+David Arulraj,https://www.facebook.com/rupal.desai.165?,Works,Mela Indian Restaurant,,,
+Rupal Desai,https://www.facebook.com/prakruthi.santhosh?,,
+Prakruthi Santhosh,https://www.facebook.com/profile.php?id=100014269414843&,Owner,Prakruthi's Craftique,,,
+Madhu Sri,https://www.facebook.com/profile.php?id=100000011032566&,,
+Bushra Pervaiz,https://www.facebook.com/smanapuri?,,
+Samatha Mahesh,https://www.facebook.com/nibedita.nayak.5201?,,
+Nibedita Nayak,https://www.facebook.com/meetamul?,,
+Amulya Kiran,https://www.facebook.com/naidu.venkatapriya?,Software engineer,Jack Henry & Associates,,,
+Venkatapriya Nammalwar,https://www.facebook.com/profile.php?id=100013796563951&,,
+Persis Ballantyne,,Works,Self-Employed,,,
+Elizabeth D Zeigler,https://www.facebook.com/elizabeth.d.zeigler?,,
+Srujana Kasarla,https://www.facebook.com/srujana.kasarla?,Works,DataCard Corp,,,
+BVcreations RG,https://www.facebook.com/profile.php?id=100004367265768&,Works,BV Creations,,,
+Hassan Khan,https://www.facebook.com/profile.php?id=100000193843824&,,
+Deep Vohra,https://www.facebook.com/dkvohra?,,
+Talasila M N Chowdary,https://www.facebook.com/tmnchowdary?,,
+Shyam Sundar Sankaran,https://www.facebook.com/shyam.sankaran?,,
+Namrata Kaur Ahuja,https://www.facebook.com/sophie.pahwadange?,,
+Urmila Tmg,https://www.facebook.com/urmila.tamang.3538?,,
+Hanishadevi Talasila,https://www.facebook.com/hanishadevi?,,
+Balakumaran NK,https://www.facebook.com/balakumaran.nk?,,
+Siddharth Goyal,https://www.facebook.com/siddharth.goyal.581?,,
+Dharma Madhan,https://www.facebook.com/dharma.madhan?,Jawahar  Matriculation Higher Secondary School,
+Maya Mandhara,https://www.facebook.com/maya.shivaram?,,
+Priya Balakrishnan,https://www.facebook.com/priya.balakrishnan.505?,Owner,Tambika Creations,,,
+Sudeshna Ghosh,https://www.facebook.com/sudeshna.ghosh1?,Owner,Fashion N Bling USA,,,
+Gomathee Raghushankar,https://www.facebook.com/gomathee.ravichandran?,,
+Manoja Ashwin,https://www.facebook.com/Manojaashwin?,,
+Bindhu Ram,https://www.facebook.com/bindhu.ram.505?,,
+Viseshu Kumar Repalle,https://www.facebook.com/viseshu.repalle?,,
+Cim Sma,https://www.facebook.com/profile.php?id=100013667071532&,,
+Srinivas Dharmala,https://www.facebook.com/srinivas.reddy.351?,,
+Rama Krishna Ede,https://www.facebook.com/ramakrishna.ede?,,
+నవీన్ సంక్రాంతి,https://www.facebook.com/nsankranthi?,,
+Pallavi Neelapala,https://www.facebook.com/pallavi.neelapala?,Rvrr college of education,Guntur,,,
+Puja Hait Bisht,https://www.facebook.com/phait?,,
+Lalli Yadlapalli,https://www.facebook.com/lavanya.chowdary.144?,,
+Jenifer Fernandes,https://www.facebook.com/jennifer2.fernandes?,,
+Kranthi Kumar Kharidu,https://www.facebook.com/kranthikharidu?,Test Team Lead,Collabera,,,
+Sushmita Sane,https://www.facebook.com/sushmita.eldandi?,Financial Report Writer,FHI 360,,,
+Sindhuja Balaswami,https://www.facebook.com/sindhuja.balaswami?,,
+Nithya Sowmy,https://www.facebook.com/nithya.sowmy.1?,,
+Ravi Kalmath,https://www.facebook.com/ravi.kalmath.1?,,
+Swetha Reddy,https://www.facebook.com/profile.php?id=100012591995570&,,
+Mir Shah,https://www.facebook.com/profile.php?id=100013103289778&,Founder/CEO/Owner,Dilivrme solutions,,,
+Divya Chintala,https://www.facebook.com/divya.chintala?,,
+Padmavathy Manohar,https://www.facebook.com/padmavathy.manohar?,,
+Chandhu Ch,https://www.facebook.com/chintalaa?,,
+Jasmeet Kaur,https://www.facebook.com/jasmeet.bagga?,,
+రూపక్ ఎమ్,https://www.facebook.com/roopaksai.tejamudili?,,
+Varshini Shastry,https://www.facebook.com/hima.varshini.904?,.NET & UI Developer,Wells Fargo,,,
+Dipika Susmit Bardia,https://www.facebook.com/dipika.susmitbardia?,Works,Institute of Chartered Accountants of India (ICAI) Students,,,
+Lahari Sruthi Bãchina,https://www.facebook.com/laharisruthi.bachina?,Graduate Research Assistant,Kennesaw State University,,,
+Shiva Reddy,https://www.facebook.com/shiva.dubbaka?,,
+Nikhar Trendz,https://www.facebook.com/nikhartheelegance?,Works,Self-Employed,,,
+Suri Tyson,https://www.facebook.com/suri.tyson?,,
+Tarun Tejpal,https://www.facebook.com/tarun.tejpal?,Head of Industry Marketing for Automotive & Transportation Industry,Siemens,,,
+Blondell Poole- Simpson,https://www.facebook.com/blondells?,Works,GE,,,
+Garima Vijaywargiya,https://www.facebook.com/garima.vijaywargiya?,,
+Venkat Vadlamani,https://www.facebook.com/venkata.mahesh.338?,Works,Fidelity Investments,,,
+Nisha Balani,https://www.facebook.com/nisha.balani?,Vice President,Wells Fargo Bank,,,
+Charles Kirby,https://www.facebook.com/charles.kirby.925?,DeVry Decatur,
+Pravin Nahire,https://www.facebook.com/pravin.nahire.5?,,
+Arul Lawrence,https://www.facebook.com/arul.lawrence.3?,,
+Vidya Sagar Reddy,https://www.facebook.com/vidyasagar.reddy.31?,,
+Yashwanth Reddy Chintu,https://www.facebook.com/yashwanth.gaginepallychintu?,Sr Collaboration Solutions Engineer,Blue Shield of California,,,
+Anil Togaru,https://www.facebook.com/AnilTog?,Java Developer,American Airlines,,,
+Padma Nunna,https://www.facebook.com/padma.nunna?,Works,TIAA,,,
+Krishna Bobba,https://www.facebook.com/deepti.nannapaneni?,,
+Hariram Mani,https://www.facebook.com/hariram.mani?,,
+John Gladson,https://www.facebook.com/GladClicksJohn?,,
+Manasa Nadipalli,https://www.facebook.com/manasa.nadipalli.5?,Artist,Manasa origami art,,,
+Shital Vaghasiya,https://www.facebook.com/shital.vaghasiya.7?,Owner,Bollywood Redefined,,,
+Nikhil Nagori,https://www.facebook.com/nikhil.nagori.50?,,
+Sandeep Gadi,https://www.facebook.com/sandeep.gaadi?,Senior Software Engineer Developer,Fidelity Investments,,,
+Murugan Kali,https://www.facebook.com/murugan.preethi?,,
+Aseem Jain,https://www.facebook.com/aseem3?,Engineer,Analog Devices,Inc.,,
+Vamshi Vamshi,https://www.facebook.com/vamsik123?,,
+Suzidave Dange,https://www.facebook.com/suzidave.dange?,Owner,Business Owner,,,
+Rami Reddy Battula,https://www.facebook.com/Nandanavega1?,General Manager,Tambulam Express - NandanaVega,,,
+Elton Bentle,https://www.facebook.com/elton.bentle.7?,,
+Janani Kannan,https://www.facebook.com/janani.kannan.14?,,
+Anvita Bhatnagar,https://www.facebook.com/anvitabhatnagar?,,
+Vinay Reddy,https://www.facebook.com/vinayreddy9696?,,
+Laxmi Sunkara,https://www.facebook.com/laxmi.devi.7?,,
+Stacie Akers,https://www.facebook.com/stacie.akers.7?,,
+Madhuvani Vanam,https://www.facebook.com/madhuvani.vanam?,,
+Venkata Rami Reddy Allam,https://www.facebook.com/venkata.ramireddy.750?,,
+Marie Warmack,https://www.facebook.com/marie.warmack.52?,,
+Rohit Jagessar,https://www.facebook.com/rohit.jagessar.3?,,
+Kaivalya Vyas,https://www.facebook.com/kaivalya.vyas.9?,,
+Jayantilal Patel,https://www.facebook.com/jayantilal.patel.739?,,
+Felisha Green,https://www.facebook.com/felisha.green.357?,Works,Self-Employed,,,
+Selina Yazdan,https://www.facebook.com/selina.alam.7792?,Owner,Self-Employed,,,
+Priyamathy,https://www.facebook.com/priyamathybalaji?,Msc I.T,Agurchand manmull Jain College,,,
+Venu Talasila,https://www.facebook.com/venutalasila?,Financial Services Professional for NYL,New York Life,,,
+Gogo Datta,https://www.facebook.com/gogo.datta?,Business Analyst,Cap Gemini,,,
+Sudeshna Basu Sen,https://www.facebook.com/pampachintu?,Founder,Teacher and choreographer,Nritya ..Performing Art centre by Sudeshna Sen,,
+Dolly Patel,https://www.facebook.com/dolly.patel.1426?,Salisbury State University,
+Rajkumar Varatharaju,https://www.facebook.com/Rajkumar.Varatharaju?,,
+Dimpal Dahya,https://www.facebook.com/dimpal.dahya?,,
+Shanker Bonaili,https://www.facebook.com/Sbonaili?,Sr. Analyst - IT,SITA.AERO,,,
+Larry Pittman,https://www.facebook.com/larrypittman4?,,
+Anvesh Bollam,https://www.facebook.com/AmAnveshBollam?,Technical Lead,Hasbro,Inc.,,
+Heta Patidar,https://www.facebook.com/profile.php?id=100010175492349&,Contributer and Marketing Associate,SpotLife Asia,,,
+Sanjeevi Rangaswamy,https://www.facebook.com/Sanjeevi.Rangaswamy?,Associate,Cognizant,,,
+Gaurav Nayak,https://www.facebook.com/crowngaurav?,,
+Alizah Ahmed,https://www.facebook.com/profile.php?id=100012069637230&,,
+Aprajita Yaduvanshi,https://www.facebook.com/aprajita.yaduvanshi?,Mommy,Stay-at-home parent,,,
+Ÿagnesh Vadalia,https://www.facebook.com/YagneshV?,,
+Stanley Comer,https://www.facebook.com/profile.php?id=1226717706&,Visit My fan Page,SuperDooper Stan Comer,,,
+Sujitha Gali,https://www.facebook.com/sujitha.gali?,,
+Saravana Thiagarajan,https://www.facebook.com/SaravanaTK?,Technology Lead,Infosys,,,
+Vimal Kumar,https://www.facebook.com/vimalkagarwal?,,
+Sreedhar Rao,https://www.facebook.com/sridharrao.donthineni.3?,Datawarehouse & ETL Analyst,Bank of America,,,
+Sharan Reddy Kadire,https://www.facebook.com/sharanreddy.k?,,
+Vishnu Gandhi,https://www.facebook.com/gavishnu?,,
+Mahesh Pmc,https://www.facebook.com/profile.php?id=100009414416107&,Owner,Self-Employed,,,
+Pratima Chetkuri,https://www.facebook.com/gunnnu?,,
+Lalita Jayanthi,https://www.facebook.com/lalita.jayanthi?,,
+Manish Kumar,https://www.facebook.com/manishabeer?,Customer Service Specialist,Cisco Systems,,,
+Rameshbabu Ragunathan,https://www.facebook.com/rameshbabu.ragunathan?,,
+Priya Madhavan,https://www.facebook.com/infalliblecreationzgroups?,,
+Uday Kumar,https://www.facebook.com/profile.php?id=100002501022225&,,
+Shilpa Mangilipally,https://www.facebook.com/shilpa.anem?,Works,Corning Incorporated,,,
+PK Polneni,https://www.facebook.com/pavanpolneni22?,DevOps Engineer,Prudential Financial,,,
+MaheshKumar Jagannathan,https://www.facebook.com/maheshkumar.jagannathan?,,
+Roja Ravuri,https://www.facebook.com/roja.ravuri.7?,,
+Növi ßhuller,https://www.facebook.com/novi.bhuller?,,
+Madhuri Kesari,https://www.facebook.com/madhuri.kesari?,Works,Ubs Financial Services,,,
+Gowthami Bollineni,https://www.facebook.com/gowthami.bollineni?,,
+Kiran Adepu,https://www.facebook.com/kittu.adepu?,,
+Kumar Raj,https://www.facebook.com/itsSRKhere?,,
+Megha Gupta,https://www.facebook.com/megha.gupta.1865?,,
+Avani Rao,https://www.facebook.com/profile.php?id=100010147299516&,,
+Aani Baig,https://www.facebook.com/AANICLOTHINGS?,,
+Jibeesh Gopi,https://www.facebook.com/jibeesh?,,
+Sumathikavitha Prabha,https://www.facebook.com/sumathikavitha.prabha?,Works,NTT DATA Services,,,
+Ramesh Tummalapalli,https://www.facebook.com/ramesh.tummalapalli?,,
+Nikita Purohit Shah,https://www.facebook.com/Nikita.Shah.0507?,,
+Dishit Parekh,https://www.facebook.com/parekhdishit?,Ph.D. Candidate,NC State University,,,
+प्रवीण एम,https://www.facebook.com/Praveenamannem?,Works,Works,,,
+Sagar Gsm,https://www.facebook.com/profile.php?id=100011691506483&,Owner,GSM Global ImpeX,,,
+Sush Sush,https://www.facebook.com/profile.php?id=100007575435630&,,
+Anita Bollina,https://www.facebook.com/abollina?,,
+Arnab Jyoti Baruah,https://www.facebook.com/arnab.baruah?,,
+Ronita Ghosh,https://www.facebook.com/ronitaghosh?,Owner,Prints & Weaves by Ronita LLC,,,
+Naidu Kripa,https://www.facebook.com/Krupanaidu58?,,
+Smriti Reddy,https://www.facebook.com/smritimora?,,
+Shikha Shanish,https://www.facebook.com/shikha.shanish?,,
+Prince Swati Mittal,https://www.facebook.com/swatiprince.mittal?,,
+Rathika Prabhu,https://www.facebook.com/rathikarathinam?,,
+Meghna Shah,https://www.facebook.com/shahmeghna?,,
+Roopa Rathi,https://www.facebook.com/roopa.rathi.5?,,
+Siddhu Nuli,https://www.facebook.com/siddhu.nuli?,,
+Venkat Surendra Gaggara,https://www.facebook.com/venkat.gaggara?,,
+Vikram Reddy,https://www.facebook.com/vikram.baddam?,SQL BI Developer,MicroInfo Global,,,
+Stormy Patel,https://www.facebook.com/stormy.patel?,,
+Anuja Sheth,https://www.facebook.com/anuja.sheth.7?,,
+Prathima Reddy,https://www.facebook.com/prathima.reddy.5203?,,
+Tania Roy,https://www.facebook.com/tania.roy.146?,,
+Vijayalakshmi Pulivarthi,https://www.facebook.com/vijayalakshmi.pulivarthi?,,
+SelvaBala Naren Nandha Amma,https://www.facebook.com/selva.bala.77?,Automation Lead,Wellsfargo,,,
+Sireesha Dammavalam,https://www.facebook.com/sireesha.dammavalam?,Works,AIG,,,
+Rads Yera,https://www.facebook.com/rads.yera?,,
+Radha Ramanuj,https://www.facebook.com/radha.ramanuj?,,
+Harsha Agarwal,https://www.facebook.com/harsha.agarwal.90?,,
+Mehra Neha,https://www.facebook.com/neha.mehra.796774?,,
+Aarthi Shakeer,https://www.facebook.com/aarthi.vijayakumar.1?,,
+Pradeep Kollipara,https://www.facebook.com/pradeep.kollipara?,,
+Ekta Shah,https://www.facebook.com/ekta.shah.148?,,
+Shrujal Vakharia,https://www.facebook.com/vakharia?,Real estate broker,Wilkinson ERA Real Estate,,,
+Twinkle Morbia,https://www.facebook.com/twinkle.morbia?,Founder / Designer,Syna's Collection,,,
+Lakshmi Sravanthi Surapuram,https://www.facebook.com/lakshmi.surapuram?,,
+Nisha Tulani Dawra,https://www.facebook.com/nisha.t.dawra?,Works,KMD Realty,,,
+ക്രാന്തി പിഞ്ചു,https://www.facebook.com/kranthi.pintu?,,
+Chaitanya Kola,https://www.facebook.com/chaitanya.kola?,,
+Rahul Sadhineni,https://www.facebook.com/rahul.sadhineni?,,
+Räkesh Bun Ë Reddy,https://www.facebook.com/profile.php?id=100006821591919&,Works,NoT yeT woRkiNg !! iM stiLl stUdYinG !!hehe,im still youth,,
+Ganesh Karri,https://www.facebook.com/ganesh.karri?,,
+Mehendi Henna,https://www.facebook.com/mehendi.henna.90?,Owner,Self-Employed,,,
+Pooja Chawla-Nagpal,https://www.facebook.com/pooja.chawla.7796?,,
+Peter Jose,https://www.facebook.com/peter.jose.5?,Sr. Associate,Cognizant,,,
+Sakshi Kulshreshtha,https://www.facebook.com/sakshi.kulshreshtha.3?,,
+Swetha Thakur,https://www.facebook.com/swetha.thakur.5?,,
+Zil Shah,https://www.facebook.com/Why.Zil?,,
+Punit Salian,https://www.facebook.com/punit.salian?,,
+Charu Patel,https://www.facebook.com/profile.php?id=100009967002232&,,
+Mukta Singh Ghangas,https://www.facebook.com/singhmukta?,,
+Durga Bandarupalli,https://www.facebook.com/durga.bandarupalli?,,
+Sa Roshy,https://www.facebook.com/rrads1?,,
+Ameet A Lilani,https://www.facebook.com/djameet?,Works,Nirvana Events,,,
+Rajesh Yadav,https://www.facebook.com/rajesh.yadav.988?,,
+Priyanka Pulgam,https://www.facebook.com/priyanka.pulgam?,,
+Samatha Kolagatla,https://www.facebook.com/profile.php?id=100000208614999&,,
+Dhivya Tamilarasu,https://www.facebook.com/dhivya.tamilarasu?,,
+Kiran Surapuram,https://www.facebook.com/surapuram?,,
+Sami Nathan,https://www.facebook.com/chefsamiusa?,Corporate Executive Chef,Dharani South Indian Cuisine,,,
+Deepak Pappusetty,https://www.facebook.com/deepak.pappusetty?,Geo-Structural Engineer / Developer,DCE Solar,,,
+Priyanka Palit,https://www.facebook.com/priyanka.palit.50?,,
+Kumaravel Thiru,https://www.facebook.com/kumaravel.thiru?,Vice President,Bank of America,,,
+Rakesh Kumar Satapathy,https://www.facebook.com/rakesh.k.satapathy?,Team leader,Accenture in India,,,
+Arun Pillai,https://www.facebook.com/arunppillai?,,
+Hema Sundar Chepuri,https://www.facebook.com/hemasundar.chepuri?,,
+Ramesh Velaga,https://www.facebook.com/ramesh.velaga?,Works,Dassault Systèmes,,,
+Bal Reddy,https://www.facebook.com/balreddyksr?,,
+Praveen Kumar,https://www.facebook.com/praveen.bezgam?,Quality Analyst,Athene USA,,,
+Meenakshi Malhotra,https://www.facebook.com/profile.php?id=100011126741027&,Works,Bayer Crop Science,,,
+VishvaPriya Madhan,https://www.facebook.com/vishvapriya.mba?,,
+Soumya Pattnaik,https://www.facebook.com/soumya.pattnaik.96?,Works,Student,,,
+Neelam Thakkar,https://www.facebook.com/neelam.thakkar.79?,,
+Monit Vyas,https://www.facebook.com/profile.php?id=100010991589232&,,
+Sindhu Jella,https://www.facebook.com/sindhu.jella?,,
+Swaroop Vasireddy,https://www.facebook.com/targetinsight?,,
+Kamal Reddy,https://www.facebook.com/kamal.reddy.50?,,
+Prashant Shinde,https://www.facebook.com/profile.php?id=100005304271096&,,
+Kiran Teja,https://www.facebook.com/kiran.teja.9655?,Electrical Engineer,Tetra Tech,,,
+Navish Jain,https://www.facebook.com/navishjain?,CEO & Founder,Cirtru - Roommate Finder,Rooms for Rent,Apartments for Rent,Sublets
+Ashley Heyer,https://www.facebook.com/profile.php?id=100010888087832&,CEO,Self-Employed,,,
+Rashi Deshpande,https://www.facebook.com/rashi.deshpande.3?,,
+Sujjitha Suresh,https://www.facebook.com/sujji.vidiyala?,,
+Azam Ishaq,https://www.facebook.com/dotcomspecialists?,Contributor,Shutterstock,,,
+Sushil Yadav,https://www.facebook.com/SUSHIL10726?,,
+Kavi Ranga,https://www.facebook.com/kavi.ranga.54?,,
+Suseela Srinivasan,https://www.facebook.com/suseela.srinivasan?,,
+Gouthami Byraiah,https://www.facebook.com/gouthami.byraiah?,Works,IBM Global Services,,,
+Aishwarya Balakrishnan,https://www.facebook.com/profile.php?id=100011215563656&,Ownership,Traditional Silk House,,,
+Aravind Mokkarala,https://www.facebook.com/aravindmokkarala?,,
+Suresh Varma,https://www.facebook.com/suresh.varma.33483?,,
+Shriti Kalepu,https://www.facebook.com/shriti.kalepu?,,
+Maitrayee Dutta,https://www.facebook.com/maitrayee.dutta?,,
+Jasmine Mehta Grover,https://www.facebook.com/jasmine.grover.7?,,
+Tushaar Bedi,https://www.facebook.com/tushaarbedi?,,
+Soujanya Rajesh,https://www.facebook.com/SoujanyaSomisetty?,,
+Rupal Patel,https://www.facebook.com/Rupal8?,Top International Model of the Year,Model,,,
+Rahul Akira,https://www.facebook.com/rahulakira?,,
+Deeru Reddy Madhadi,https://www.facebook.com/deerajreddymadhadi?,,
+Nanisri Yerram,https://www.facebook.com/nanisri.yerram?,Works,Dell,,,
+Anjali Tewari,https://www.facebook.com/profile.php?id=100007039818348&,Delhi University Updates,
+Naveen Varma,https://www.facebook.com/n.varma6?,,
+Sujitha Anand,https://www.facebook.com/sujitha.bhaskaran.3?,,
+Anand Chandawarkar,https://www.facebook.com/anand.chandawarkar?,,
+Shahid Patel,https://www.facebook.com/shahid.patel.969?,Lala Lajpatrai College,
+Mousumi Sarkar,https://www.facebook.com/Mousumisarkarbasak?,Owner,Opal's Handicrafts,,,
+Mayank Agarwal,https://www.facebook.com/mayank.agarwal.752861?,,
+Aman Agarwal,https://www.facebook.com/aman11138?,Managing Director,JML INDUSTRIES INDIA PRIVATE LIMITED,,,
+Jayanthika Nannapaneni,https://www.facebook.com/profile.php?id=100007047735576&,,
+Meena Ankam,https://www.facebook.com/profile.php?id=100006815505357&,Fashion Designer,Meena1 Fashions,,,
+Sangeetha Menon,https://www.facebook.com/sang.eetha.338?,,
+Neeraj Jha,https://www.facebook.com/neeraj.jha.92775?,Works,AOne Manpower,,,
+Newstyledesigner Nsd,https://www.facebook.com/profile.php?id=100012094993132&,,
+Sathish Kompelly,https://www.facebook.com/komnani?,,
+Manjari M Dharni,https://www.facebook.com/manjari.dharni?,,
+Manaswini Vinnakota,https://www.facebook.com/manaswini.vinnakota.54?,Teaching assistant,UNC Charlotte,,,
+Rohini Shesham,https://www.facebook.com/rshesham?,Works,Dr. Reddy's Laboratories Ltd.,,,
+Raja Sekhar,https://www.facebook.com/potluri.rajasekhar?,,
+Ashwini Sayanakar,https://www.facebook.com/ashwini.sayanakar?,,
+Yashpal Kumar Butna,https://www.facebook.com/byashpal?,,
+Jhanani R Sivashankar,https://www.facebook.com/jhananir.sivashankar?,,
+Krish Na Chaitanya,https://www.facebook.com/krishna.chaitanya.528?,,
+Mansi Kapuria,https://www.facebook.com/mansi.kapuria?,Works,Tata Consultancy Services,,,
+Chandana Roy,https://www.facebook.com/ChandanaRoy.AGoodGirl?,,
+Vasavi Gangity,https://www.facebook.com/vasavi.gangity?,,
+Davina Ray,https://www.facebook.com/profile.php?id=100010239882120&,,
+Zankhana Bothra,https://www.facebook.com/zankhana.bothra?,Cincinnati,
+Anuja Gundale Nikharge,https://www.facebook.com/anuja.gundale?,Works,The University of Texas,,,
+Kunal Kanakia,https://www.facebook.com/kunal.kanakia?,,
+Pranav Krishna Medarametla,https://www.facebook.com/pranavkrishnamedarametla?,,
+Archana Rohit,https://www.facebook.com/archshm?,,
+Navya Raj,https://www.facebook.com/profile.php?id=100009711105821&,Works,My Own Business Institute,,,
+Bindu Vaniyan,https://www.facebook.com/bindu.vaniyan?,,
+Srividya Kotike,https://www.facebook.com/srividya.kotike?,,
+Shruti Sudam,https://www.facebook.com/shruti.sudam?,,
+Raju Gowda,https://www.facebook.com/profile.php?id=100011513408092&,Business Manager,Perdesi link,,,
+Shruthi Kala,https://www.facebook.com/Shruti.kalak?,,
+Meenakshi Manthri,https://www.facebook.com/meenakshi.manthri?,,
+Chuda Dhimal,https://www.facebook.com/chudadhimal0?,,
+Jasmin Singh,https://www.facebook.com/profile.php?id=100011561013873&,Business Manager,Perdesi link,,,
+Usha Zaveri,https://www.facebook.com/ushaz1?,Works,Self-Employed,,,
+Crystal Gaul,https://www.facebook.com/crystal.king.12979431?,,
+Abhilash Goud,https://www.facebook.com/abhilash.balu.7?,,
+Madhavi Naidu,https://www.facebook.com/madhavi.moravaneni?,,
+Kiran Nalla,https://www.facebook.com/kiran.nalla.7?,,
+Medha Shenoy,https://www.facebook.com/profile.php?id=757255503&,Owner and Founder,Abhivyaktii LLC,,,
+Vineela Reddy,https://www.facebook.com/vineela.reddy.3382?,Works,Bank of America,,,
+Ramya Nedunuri,https://www.facebook.com/ramya.nedunuri?,,
+Rekha Suresh,https://www.facebook.com/rekha.suresh.98?,,
+Vindhya Perumalla,https://www.facebook.com/vindhya.perumalla?,,
+Ramya Peddi,https://www.facebook.com/ramya.peddi.92?,,
+Dishaa Gupta,https://www.facebook.com/profile.php?id=100011184465153&,Works,Freelance,,,
+Madhavi Reddy,https://www.facebook.com/madhavi901?,Works,Wells Fargo,,,
+Balamurugan Shankaran,https://www.facebook.com/balamurugan.shankaran.5?,Works,Cognizant,,,
+Jyothi Reddy,https://www.facebook.com/jyothi.reddy5525?,Works,Blue Cross Blue Shield of Michigan,,,
+Jhansi Asam,https://www.facebook.com/jhansi.asamm?,,
+Mahesh Gunnamareddy,https://www.facebook.com/mahesh.gunnamareddy?,St. Ignatius English Medium School,
+Hari Sonti,https://www.facebook.com/sontihari?,,
+Anu Chirumamilla,https://www.facebook.com/chirumamilla.anu?,,
+Pranu Reddy,https://www.facebook.com/pranathi.reddy.9404?,,
+Anand Sharma,https://www.facebook.com/anand.sharma.1012?,State University of New York,Buffalo,,,
+Bobby Chalasani,https://www.facebook.com/bobby.chalasani?,,
+Subbu Namala,https://www.facebook.com/subbu.namala?,,
+Abhinav Sharma,https://www.facebook.com/profile.php?id=100002321147308&,,
+Tejaswi Reddy,https://www.facebook.com/tejareddy.d08?,,
+Gautam Anand,https://www.facebook.com/gautam.anand.587?,,
+Kolan Reddy Shruthi,https://www.facebook.com/sruthireddi?,,
+Udaya Balusu,https://www.facebook.com/udaya.balusu?,Senior Associate,Cognizant,,,
+Santosh Datrik,https://www.facebook.com/santosh.datrik?,Works,Syntel,,,
+Shankar Reddy,https://www.facebook.com/sankarreddy.p?,Chef,Washington DC,,,
+Raghav Prasad,https://www.facebook.com/raghavendra.prasad.7906?,,
+Nagaraj Gajula,https://www.facebook.com/anagarajkvn?,Works,NTT DATA Services,,,
+Ritu Bhat,https://www.facebook.com/ritu.bhat1?,Founder / Chief Creative director,Ritu Selects LLC - India inspired Couture,,,
+Kiranmai Gummadi,https://www.facebook.com/kiranmai.gummadi.9?,,
+Sandeep Reddy,https://www.facebook.com/sandeep00034?,,
+Saparnaa Rajendran,https://www.facebook.com/saparnaaraj?,,
+Prakash Ramakrishnan,https://www.facebook.com/prakash.ramakrishnan.7?,,
+Amardeep Baddam,https://www.facebook.com/amardeep.baddam?,,
+Sunny Patel,https://www.facebook.com/djsunnyp?,CEO/Managing Director,Dj Sunny P Event Management & Production Co.,,,
+Raghu Reddy,https://www.facebook.com/raghu.punreddy?,Works,Freddie Mac,,,
+Lakshmi Bhargavi,https://www.facebook.com/lakshmi.bhargavi.33?,,
+Sukesh Bodavula,https://www.facebook.com/urssukesh?,,
+Anuhya Yarlagadda,https://www.facebook.com/anoohya.y?,,
+Tulja Kaleru,https://www.facebook.com/tulja.kaleru?,,
+Senniappan Shanmugam,https://www.facebook.com/senniappan?,Works,Cognizant,,,
+Praneeth Pabbaraju,https://www.facebook.com/praneeth.pabbaraju?,Sr. Java/J2EE Developer,Comcast,,,
+Abhishek Reddy Katanguri,https://www.facebook.com/abhishek.katanguri?,,
+Raghu Vamsi Krishna Akshayam,https://www.facebook.com/raghu.akshayam?,,
+Naveen Jogi,https://www.facebook.com/naveen.jogi?,,
+Haritha Reva,https://www.facebook.com/harithareva?,,
+Shekar Bollina,https://www.facebook.com/shekar.bollina?,Technical Project Manager,TIAA,,,
+Sravanthi Reddy,https://www.facebook.com/sravanthi.reddy.3194?,,
+Rakesh Madhavan,https://www.facebook.com/rmadh?,,
+Manoj Kumar Govindan,https://www.facebook.com/manoj.kumar.govindan?,Sr.Analyst,BA Continuum India Pvt Ltd (Bank of America Merril Lynch),,,
+Teja Kolan,https://www.facebook.com/teja.kolan?,,
+Sanjay Penmetsa,https://www.facebook.com/sanjay.penmetsa?,Works,TIAA,,,
+Ashwani Chandnani,https://www.facebook.com/ashwanic?,,
+Sowjanya Adusumilli,https://www.facebook.com/sowjanya.adusumilli?,,
+Dainna Ramchandani Chandnani,https://www.facebook.com/dainna.ramchandani?,Photographer/Owner,DRC Photography Charlotte,,,
+Manoj Ghangas,https://www.facebook.com/manoj.ghangas?,,
+Nikhil Ch,https://www.facebook.com/nikhil.ch.16?,Kakatiya Institute of Technology & Science (KITS),Warangal,,,
+Elyas Mohammed,https://www.facebook.com/elyas.mohd?,,
+Kiran Pendyala,https://www.facebook.com/pendyala576?,,
+Mahidhar Pala,https://www.facebook.com/mahidhar.pala?,Applications Engineer,Google,,,
+Srk Nannapaneni,https://www.facebook.com/srk.nannapaneni?,,
+Siddanth Kommuri,https://www.facebook.com/k.siddanth?,Sr. Data visualization engineer,University of Virginia,,,
+Jyothi Reddy,https://www.facebook.com/jyothi.buthkuri?,,
+Umeshchandra Turai,https://www.facebook.com/umeshchandra.turai?,,
+Umamahesh Nakka,https://www.facebook.com/umamahesh.nakka?,Senior Associate,Cognizant,,,
+Rashwanth Reddy,https://www.facebook.com/Rashu50?,Works,MicroInfo Global,,,
+Deepthi Vasishta,https://www.facebook.com/deepthi.vasishta?,,
+Subba Madhavarapu,https://www.facebook.com/subba.rao.961?,Oracle/Banner DBA,Alabama A&M University,,,
+Pradeep Chadalawada,https://www.facebook.com/pradeep.chadalawada?,,
+Arshad Syed,https://www.facebook.com/arshad.syed.716?,Restaurant General Manager,Nawabs Kebabs,,,
+Prashanth Reddy,https://www.facebook.com/prashanth.junnu?,,
+Rakesh Reddy Bhumireddy,https://www.facebook.com/raka1511?,Oracle SOA Consultant,South Carolina Department of Health and Human Services,,,
+Rama Krishna Chowdary,https://www.facebook.com/rama.chowdary.5?,Data Warehouse ETL Developer,TIAA,,,
+Anudeep Mopati,https://www.facebook.com/profile.php?id=100000196826291&,,
+Pradeep Kondepati,https://www.facebook.com/deep.kondepati?,Works,TIAA,,,
+Harry Theja,https://www.facebook.com/hari.prince21?,,
+Saleem Mohammed,https://www.facebook.com/saleem.moahmmed?,,
+Pradeep Reddy Gunna,https://www.facebook.com/pradeep.gunna?,,
+Jyothi Swaroop,https://www.facebook.com/jyothiswaroopreddy?,,
+Sunil Alasyam,https://www.facebook.com/sunil.alasyam?,,
+Sandeep Dandi,https://www.facebook.com/sandeep.dandi?,,
+వివేక్. ఎప్పుడు ఒప్పుకోవద్దురా ఓటమి,https://www.facebook.com/vivek.ravula?,Fitchburg State College,
+Siva Teja Reddy Kandula,https://www.facebook.com/profile.php?id=1508592945&,,
+Jonathan Vijay,https://www.facebook.com/jonathan.vijay.3?,,
+Amit Patel,https://www.facebook.com/itzs.amit?,,
+Syed Faraz Ahmed,https://www.facebook.com/syed.f.ahmed.501?,,
+Murali Ravipati,https://www.facebook.com/murali.ravipati?,Works,TIAA,,,
+Aslam Shaik,https://www.facebook.com/aslam7.shaik?,,
+Sreekanth Reddy,https://www.facebook.com/GSRK99?,,
+Achalveer Singh,https://www.facebook.com/achalveer.singh?,Architect,Cognizant,,,
+Deepesh Kumar,https://www.facebook.com/deepeshcv?,,
+Vamsi Pola,https://www.facebook.com/vamsipola?,,
+Vamshi Etikala,https://www.facebook.com/vamshi.etikala?,Works,Nixsol Inc,NJ,,
+Vinod Kumar S,https://www.facebook.com/vinodkks1?,,
+Andavarapu Amar,https://www.facebook.com/andavarapu.amar?,National Institute of Science & Technology,
+Suresh Gunda,https://www.facebook.com/suresh.gunda?,Works,Con Edison,,,
+Pravalik Medi,https://www.facebook.com/pravalikm?,,
+Prasad Reddy Avula,https://www.facebook.com/sivareddy2310?,,
+Ashwin Kumar,https://www.facebook.com/ashwinkumar.gudur?,,
+Vikram Namireddy,https://www.facebook.com/vikramnreddy?,Works,TIAA,,,
+Anudeep Reddy Katangoori,https://www.facebook.com/profile.php?id=632716004&,,
+Ramesh Mukulla,https://www.facebook.com/mukulla?,Project manager,Cognizant,,,
+Sai Krishna Kommineni,https://www.facebook.com/sai.kommineni?,Business Intelligence Developer,Verscend,,,
+Sumanth Chennupati,https://www.facebook.com/chennupati?,Works,TIAA,,,
+Ashwin Mendon,https://www.facebook.com/ashwin.mendon.5?,,
+Manohar Madineni,https://www.facebook.com/manohar.madineni?,IT Engineer Proficient,ING,,,
+Salman Nasrullah Chaudhry,https://www.facebook.com/djsalmannyc1987?,Founder,Self-Employed,,,
+SwethAravind Bondili,https://www.facebook.com/swetha.dodla?,,
+Manasa Vivek,https://www.facebook.com/manasa.reddy.980?,Quality Analyst,RoundPoint Mortgage Servicing Corporation,,,
+Anokh Ettaboina,https://www.facebook.com/anokh.ettaboina?,,
+Vivek Sama,https://www.facebook.com/viveksama45?,,

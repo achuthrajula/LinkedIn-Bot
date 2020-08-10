@@ -1,4 +1,5 @@
 const {Builder, By, Key, until} = require('selenium-webdriver');
+const { del } = require('selenium-webdriver/http');
  
 (async function example() {
   let driver = await new Builder().forBrowser('chrome').build();
@@ -11,9 +12,9 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 
     let users = [
       // 'https://www.linkedin.com/in/achuth-rajula-162048177/',
-      'https://www.linkedin.com/in/rahul-nadendla-34212252/',
-      'https://www.linkedin.com/in/saikiran-gonugunta/'
-      // 'https://www.linkedin.com/in/abhishek-kasireddy-2158b91a5/',
+      // 'https://www.linkedin.com/in/rahul-nadendla-34212252/',
+      'https://www.linkedin.com/in/saikiran-gonugunta/',
+      'https://www.linkedin.com/in/abhishek-kasireddy-2158b91a5/',
       // 'https://www.linkedin.com/in/gowtham-venkat-sai-ram-7185a71a7/',
       // 'https://www.linkedin.com/in/anweshachattoraj/',
       // 'https://www.linkedin.com/in/gouthamgandhi/',
@@ -40,27 +41,41 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
   } finally {
     // await driver.quit();
     function delay() {
-      return new Promise(resolve => setTimeout(resolve, 300));
+      return new Promise(resolve => setTimeout(resolve, 10000));
     }
     
     async function delayedLog(item) {
-      // notice that we can await a function
-      // that returns a promise
       await delay();
       await driver.get(item);
       await delay();
       // // connect button
       // await driver.findElement(By.className('pv-s-profile-actions--connect')).sendKeys(Key.RETURN)
-      await driver.findElement(By.className('pv-s-profile-actions--connect')).sendKeys(Key.RETURN)
-      await delay();
-      // proceed to connect with a message
-      await driver.findElement(By.className('mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view')).sendKeys(Key.RETURN)
-      await delay();
-      // select the text area and write your message here
-      await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver', Key.RETURN);
-      await delay();
-      // send message button
-      await driver.findElement(By.className('ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view')).sendKeys(Key.RETURN)
+      // // message button
+      // await delay();
+      // // proceed to connect with a message
+      // await driver.findElement(By.className('mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view')).sendKeys(Key.RETURN)
+      // await delay();
+      // // select the text area and write your message here
+      // await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver', Key.RETURN);
+      // await delay();
+      // // send message button
+      // await driver.findElement(By.className('ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view')).sendKeys(Key.RETURN)
+      
+      // message existing contact
+
+      // message button
+      await driver.findElement(By.className('pv-s-profile-actions--message')).sendKeys(Key.RETURN)
+      delay()
+      // select and type message
+      await driver.findElement(By.className('msg-form__message-texteditor')).sendKeys('Hi, please ignore this message it\'s sent to test out features in real time')
+      delay()
+      // send
+      await driver.findElement(By.className('msg-form__send-button')).sendKeys(Key.RETURN)
+      delay()
+      // close message button
+      
+      await driver.findElement(By.className('artdeco-button__icon')).sendKeys(Key.RETURN)
+      delay()
     }
     async function processArray(array) {
       for (const item of array) {
@@ -71,3 +86,4 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
     processArray(users)
   }
 })();
+
