@@ -65,17 +65,16 @@ const { del } = require('selenium-webdriver/http');
 
       // message button
       await driver.findElement(By.className('pv-s-profile-actions--message')).sendKeys(Key.RETURN)
-      delay()
+      await delay()
       // select and type message
-      await driver.findElement(By.className('msg-form__message-texteditor')).sendKeys('Hi, please ignore this message it\'s sent to test out features in real time')
-      delay()
+      await driver.findElement(By.xpath('//div[@aria-label="Write a message…"]')).sendKeys('Hi, please ignore this message it\'s sent to test out features in real time', Key.RETURN)
+      await delay()
       // send
-      await driver.findElement(By.className('msg-form__send-button')).sendKeys(Key.RETURN)
-      delay()
+      await driver.findElement(By.css('button[type="submit"]')).click()
+      await delay()
       // close message button
-      
-      await driver.findElement(By.className('artdeco-button__icon')).sendKeys(Key.RETURN)
-      delay()
+      await driver.findElement(By.css('button[data-control-name="overlay.close_conversation_window"]')).click()
+      await delay()
     }
     async function processArray(array) {
       for (const item of array) {
