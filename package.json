@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fb-request": "node ./facebook/friendRequest",
     "fb-message": "node ./facebook/message",
-    "fb-group": "node ./facebook/groups"
+    "fb-group": "node ./facebook/groups",
+    "li-dm": "node ./linkedin/messageConnected"
   },
   "author": "",
   "license": "ISC",
