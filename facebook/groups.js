@@ -1,24 +1,5 @@
 const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
 const fs = require('fs')
-const { del } = require('selenium-webdriver/http');
-
-// (async function example() {
-//     let driver = await new Builder().forBrowser('chrome').build(); 
-
-// try {
-//     await driver.get('https://www.youtube.com/');
-    
-// }
-
-// finally {
-    
-//     for(let i = 0; i < 100000; i+=1000) {
-//         await driver.executeScript(`scroll(0,${i})`);
-//         await new Promise(r => setTimeout(r, 2000));
-//         console.log(i)
-//     }
-// }
-// })();
 
 (async function example() {
   let driver = await new Builder().forBrowser('chrome').build();
