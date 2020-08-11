@@ -1,5 +1,6 @@
 const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
-const fs = require('fs')
+const fs = require('fs');
+const { error } = require('console');
 
 (async function example() {
   let driver = await new Builder().forBrowser('chrome').build();
@@ -28,7 +29,6 @@ const fs = require('fs')
     await driver.get('https://m.facebook.com/groups_browse/your_groups/');
     await delay()
   } finally {
-    // await driver.quit();
     async function post (url) {
         await delay();
         await driver.get(url);
@@ -42,12 +42,12 @@ const fs = require('fs')
             for(var key in e){
                     var element = e[key];
                     if(element.isDisplayed()){
-                    element.click();            
-                }
+                        element.click();            
+                    }
+                    else console.log('Not visible')
             }
         })
         .catch((e) => console.log(e));
-        await delay();
     }
     async function delayedLog(item) {
         for(let i = 0; i < 10000; i+=1000) {
@@ -55,7 +55,6 @@ const fs = require('fs')
             await new Promise(random => setTimeout(random, 1000));
             console.log(i);
         }
-        await delay();
         await driver.findElements(By.css('a[href*="?ref=group_browse"]'))
         .then((e) => e.map((sub) => sub.getAttribute('href').then((val) => storeURLs(val))))
         .catch((e) => console.log(e))
@@ -63,7 +62,8 @@ const fs = require('fs')
         for(const url of groupUrls) {
             await post(url);
         }
-        await delay();
+        await delay()
+        await driver.quit();
     }
     async function processArray(array) {
         for (const item of array) {
