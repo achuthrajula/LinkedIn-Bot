@@ -8,7 +8,8 @@
     "fb-request": "node ./facebook/friendRequest",
     "fb-message": "node ./facebook/message",
     "fb-group": "node ./facebook/groups",
-    "li-dm": "node ./linkedin/messageConnected"
+    "li-dm": "node ./linkedin/messageConnected",
+    "li-connect": "node ./linkedin/connect"
   },
   "author": "",
   "license": "ISC",

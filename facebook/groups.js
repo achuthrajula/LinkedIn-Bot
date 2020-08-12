@@ -18,13 +18,13 @@ const { error } = require('console');
     }
 
   try {
-    await driver.get('https://en-gb.facebook.com/');
+    await driver.get('https://m.facebook.com/');
     await delay()
     await driver.findElement(By.name('email')).sendKeys('achuth.rajula@ftlabs.io');
     await delay()
     await driver.findElement(By.name('pass')).sendKeys('7981936393');
     await delay()
-    await driver.findElement(By.id('loginbutton')).click();
+    await driver.findElement(By.name('login')).click();
     await delay()
     await driver.get('https://m.facebook.com/groups_browse/your_groups/');
     await delay()
