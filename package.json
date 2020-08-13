@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fb-request": "node ./facebook/friendRequest",
     "fb-message": "node ./facebook/message",
-    "fb-group": "node ./facebook/groups",
+    "fb-group": "node ./facebook/groups --username --password",
     "li-dm": "node ./linkedin/messageConnected",
     "li-connect": "node ./linkedin/connect"
   },
@@ -16,6 +16,7 @@
   "dependencies": {
     "convert-csv-to-json": "0.0.15",
     "csvtojson": "^2.0.10",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "yargs": "^15.4.1"
   }
 }

@@ -1,5 +1,6 @@
 const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
 const { del } = require('selenium-webdriver/http');
+const argv = require('yargs').argv;
 
 (async function example() {
   let driver = await new Builder().forBrowser('chrome').build();
@@ -10,8 +11,8 @@ const { del } = require('selenium-webdriver/http');
 
   try {
     await driver.get('https://en-gb.facebook.com/login/');
-    await driver.findElement(By.name('email')).sendKeys('achuth.rajula@ftlabs.io');
-    await driver.findElement(By.name('pass')).sendKeys('7981936393');
+    await driver.findElement(By.name('email')).sendKeys(argv.username);
+    await driver.findElement(By.name('pass')).sendKeys(argv.password);
     await driver.findElement(By.id('loginbutton')).sendKeys(Key.RETURN);
   } finally {
     // await driver.quit();
