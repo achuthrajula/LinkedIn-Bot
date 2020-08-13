@@ -3,10 +3,20 @@ const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
 // let's us pass a varialble from command line
 const argv = require('yargs').argv;
 const fs = require("fs");
-const { del } = require('selenium-webdriver/http');
 
 // creates path to the respective log files
 const path = `./logs/facebook/dms/${argv.m}.json`
+
+// Reading the message to be sent and storing it in a variable
+let message = null
+
+fs.readFile('./content/message.txt', 'UTF-8', function(err, data) {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    message = data;                
+});
 
 //looking if the file with the messageid is already exists
 
@@ -23,7 +33,7 @@ if (fs.existsSync(path)) {
         //     console.log(groupUrls)
         // }
         function storeURLs() {
-            groupUrls.push('url1','url4','url3','url5','url2','url8','url7','url12','url6')
+            groupUrls.push('url1','url4','url3','url5','url2',)
             console.log(groupUrls)
         }
       
@@ -71,7 +81,7 @@ if (fs.existsSync(path)) {
                 console.log('Selected textarea');
                 await delay();
                 // await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys('Hi this is riku, for more details visit my website https://www.getriku.com/');
-                console.log('Wrote post');
+                console.log('Wrote post as: ', message);
                 await delay();
                 // await driver.findElements(By.css('button[type="submit"][value="Post"]'))
                 // .then((e) => {
@@ -187,7 +197,7 @@ else {
                 console.log('Selected textarea');
                 await delay();
                 // await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys('Hi this is riku, for more details visit my website https://www.getriku.com/');
-                console.log('Wrote post');
+                console.log('Wrote post as: ', message);
                 await delay();
                 // await driver.findElements(By.css('button[type="submit"][value="Post"]'))
                 // .then((e) => {
