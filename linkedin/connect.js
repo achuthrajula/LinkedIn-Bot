@@ -1,139 +1,178 @@
-const {Builder, By, Key, until} = require('selenium-webdriver');
-const { del } = require('selenium-webdriver/http');
- 
+const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
 
-(async function example() {
-  let driver = await new Builder().forBrowser('chrome').build();
-    let groups = [
-        'https://www.linkedin.com/in/gowtham-venkat-sai-ram-7185a71a7/',
-        'https://www.linkedin.com/in/achuth-rajula-162048177/'
-    ]
+// let's us pass a varialble from command line
+const argv = require('yargs').argv;
+const fs = require("fs");
 
-    function delay() {
-        let delay = Math.floor(Math.random() * (5000 - 2000)) + 2000
-        console.log('delay', delay)
-        return new Promise(resolve => setTimeout(resolve, delay))
+// creates path to the respective log files
+const path1 = require('path')
+let path = path1.join(__dirname, `../logs/linkedin/connections/${argv.m}.json`)
+let users = require('../parse').linkedin
+let message = null
+
+fs.readFile(path1.join(__dirname ,`../content/${argv.m}.txt`), 'UTF-8', function(err, data) {
+    if (err) {
+        console.log(err);
+        return;
     }
+    message = data;                
+});
 
-  try {
-    await driver.get('https://www.linkedin.com/home');
-    await delay();
-    await driver.findElement(By.className('nav__button-secondary')).click();
-    await delay();
-    await driver.wait(until.titleIs('LinkedIn Login, Sign in | LinkedIn'), 1000);
-    await delay();
-    await driver.findElement(By.id('username')).sendKeys('achuth.rajula@ftlabs.io');
-    await delay();
-    await driver.findElement(By.id('password')).sendKeys('7981936393');
-    await delay();
-    await driver.findElement(By.className('btn__primary--large from__button--floating')).click();
-    await delay()
-  } 
-  
-  finally {
-    async function delayedLog(item) {
-        await driver.get(item);
-        await delay();
-        // connect button
-        await driver.findElement(By.className('pv-s-profile-actions--connect')).click();
-        await delay();
-        // proceed to connect with a message
-        await driver.findElement(By.css('button[aria-label="Add a note"]')).click();
-        await delay();
-        // select the text area and write your message here
-        await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver');
-        await delay();
-        // send message button
-        await driver.findElement(By.css('button[aria-label="Send invitation"]')).click();
-        await delay();
-    }
-    async function processArray(array) {
-        for (const item of array) {
-            await delayedLog(item);
+//looking if the file with the messageid is already exists
+
+if (fs.existsSync(path)) {
+    console.log('Sending from an old list');
+    (async function example() {
+        let driver = await new Builder().forBrowser('chrome').build();
+        let sentTo = require(path)
+        let userUrls = []
+        
+        function check_repeat (array_1, array_2) {
+            userUrls = array_2.filter(x => !array_1.includes(x));
         }
-        console.log('Done!');
-        await driver.quit();
-    }
-    processArray(groups);
-  }
-})();
-
-// (async function example() {
-//   let driver = await new Builder().forBrowser('chrome').build();
-
-//     let users = [
-//       // 'https://www.linkedin.com/in/achuth-rajula-162048177/',
-//       // 'https://www.linkedin.com/in/rahul-nadendla-34212252/',
-//       'https://www.linkedin.com/in/saikiran-gonugunta/',
-//       'https://www.linkedin.com/in/abhishek-kasireddy-2158b91a5/',
-//       // 'https://www.linkedin.com/in/gowtham-venkat-sai-ram-7185a71a7/',
-//       // 'https://www.linkedin.com/in/anweshachattoraj/',
-//       // 'https://www.linkedin.com/in/gouthamgandhi/',
-//       // 'https://www.linkedin.com/in/priyanka-ravuri-71a784148/',
-//       // 'https://www.linkedin.com/in/veerababu-vattikuti-61469332/',
-//       // 'https://www.linkedin.com/in/kaival-trapasia-10a947169/',
-//       // 'https://www.linkedin.com/in/mainak-mitra-197545105/',
-//       // 'https://www.linkedin.com/in/shravan-yadav-a074a5145/',
-//       // 'https://www.linkedin.com/in/ravitejabhogavalli/',
-//       // 'https://www.linkedin.com/in/zeeshanver/',
-//       // 'https://www.linkedin.com/in/surendra-bharath-palle-329167102/'
-//     ]
-
-//   try {
-//     await driver.get('https://www.linkedin.com/home');
-//     await driver.findElement(By.className('nav__button-secondary')).sendKeys(Key.RETURN);
-//     await driver.wait(until.titleIs('LinkedIn Login, Sign in | LinkedIn'), 1000);
-//     await driver.findElement(By.id('username')).sendKeys('achuth.rajula@ftlabs.io');
-//     await driver.findElement(By.id('password')).sendKeys('7981936393');
-//     await driver.findElement(By.className('btn__primary--large from__button--floating')).sendKeys(Key.RETURN);
-//     // // search bar
-//     // await driver.findElement(By.className('search-global-typeahead__input always-show-placeholder')).sendKeys('Achuth Rajula', Key.RETURN);
-//     // await driver.findElement(By.className('follow org-company-follow-button org-top-card-primary-actions__action artdeco-button ember-view')).sendKeys(Key.RETURN)
-//   } finally {
-//     // await driver.quit();
-//     function delay() {
-//       return new Promise(resolve => setTimeout(resolve, 10000));
-//     }
+        check_repeat(sentTo.urls, users)
+        // Generates random delay ranging from ~2-5 seconds to ensure there isn't a pattern in the sequence
     
-//     async function delayedLog(item) {
-//       await delay();
-//       await driver.get(item);
-//       await delay();
-//       // // connect button
-//       // await driver.findElement(By.className('pv-s-profile-actions--connect')).sendKeys(Key.RETURN)
-//       // // message button
-//       // await delay();
-//       // // proceed to connect with a message
-//       // await driver.findElement(By.className('mr1 artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--secondary ember-view')).sendKeys(Key.RETURN)
-//       // await delay();
-//       // // select the text area and write your message here
-//       // await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver', Key.RETURN);
-//       // await delay();
-//       // // send message button
-//       // await driver.findElement(By.className('ml1 artdeco-button artdeco-button--3 artdeco-button--primary ember-view')).sendKeys(Key.RETURN)
+        function delay() {
+            let delay = Math.floor(Math.random() * (5000 - 2000)) + 2000
+            console.log('delay', delay)
+            return new Promise(resolve => setTimeout(resolve, delay))
+        }
       
-//       // message existing contact
+        try {
+            await driver.get('https://www.linkedin.com/home');
+          // console.log('Visited Facebook Login Page');
+            await delay();
+            await driver.findElement(By.className('nav__button-secondary')).click();
+            await delay();
+            await driver.wait(until.titleIs('LinkedIn Login, Sign in | LinkedIn'), 1000);
+            await delay();
+            await driver.findElement(By.id('username')).sendKeys('achuth.rajula@ftlabs.io');
+            // console.log(`Entered username ${argv.username}`);
+            await delay();
+            await driver.findElement(By.id('password')).sendKeys('7981936393');
+            // console.log(`Entered password ${argv.password}`);
+            await delay();
+            await driver.findElement(By.className('btn__primary--large from__button--floating')).click();
+            // console.log('Clicked the login button');
+            await delay();
+        } 
+        finally {
+          async function delayedLog(url) {
+            await delay();
+            await driver.get(url);
+            // connect button
+              await driver.findElement(By.className('pv-s-profile-actions--connect')).click();
+              await delay();
+              // proceed to connect with a message
+              await driver.findElement(By.css('button[aria-label="Add a note"]')).click();
+              await delay();
+              // select the text area and write your message here
+              await driver.findElement(By.className('send-invite__custom-message')).sendKeys(message);
+              await delay();
+              // send message button
+              await driver.findElements(By.css('button[aria-label="Send invitation"]'))
+              .then((e) => {
+                for(var key in e){
+                    var element = e[key];
+                    element.click();
+                    sentTo.urls = sentTo.urls.concat(url)
+                    // writing to the file after each successful posting of the message
+                    fs.writeFile(path, JSON.stringify(sentTo, null, 4), (err) => {
+                        if (err) return console.log(err);
+                        console.log(`Added the url ${url} to the sent list`);
+                    });            
+                }
+              })
+              .catch((e) => console.log(e));
+              await delay();
+          }
+          async function processArray(array) {
+            for (const item of array) {
+              await delayedLog(item);
+            }
+            console.log('Done!');
+          }
+          processArray(userUrls)
+        }
+      })();
+}
 
-//       // message button
-//       await driver.findElement(By.className('pv-s-profile-actions--message')).sendKeys(Key.RETURN)
-//       await delay()
-//       // select and type message
-//       await driver.findElement(By.xpath('//div[@aria-label="Write a message…"]')).sendKeys('Hi, please ignore this message it\'s sent to test out features in real time', Key.RETURN)
-//       await delay()
-//       // send
-//       await driver.findElement(By.css('button[type="submit"]')).click()
-//       await delay()
-//       // close message button
-//       await driver.findElement(By.css('button[data-control-name="overlay.close_conversation_window"]')).click()
-//       await delay()
-//     }
-//     async function processArray(array) {
-//       for (const item of array) {
-//         await delayedLog(item);
-//       }
-//       console.log('Done!');
-//     }
-//     processArray(users)
-//   }
-// })();
+else {
+    console.log('Since that you\'re here it\'s understood that this message is being sent the first time, so it\'ll be sent to all your connections')
+    
+    let data = {
+        urls: []
+    }
+    fs.writeFileSync(path, JSON.stringify(data, null, 4), (err) => {
+        if (err) return console.log(err);
+        console.log('Created a log file');
+    });
 
+    (async function example() {
+      let driver = await new Builder().forBrowser('chrome').build();
+      let sentTo = require(path)
+      
+      // Generates random delay ranging from ~2-5 seconds to ensure there isn't a pattern in the sequence
+  
+      function delay() {
+          let delay = Math.floor(Math.random() * (5000 - 2000)) + 2000
+          console.log('delay', delay)
+          return new Promise(resolve => setTimeout(resolve, delay))
+      }
+    
+      try {
+          await driver.get('https://www.linkedin.com/home');
+          await delay();
+          await driver.findElement(By.className('nav__button-secondary')).click();
+          await delay();
+          await driver.wait(until.titleIs('LinkedIn Login, Sign in | LinkedIn'), 1000);
+          await delay();
+          await driver.findElement(By.id('username')).sendKeys('achuth.rajula@ftlabs.io');
+          await delay();
+          await driver.findElement(By.id('password')).sendKeys('7981936393');
+          await delay();
+          await driver.findElement(By.className('btn__primary--large from__button--floating')).click();
+          await delay();
+      } 
+      finally {
+        async function delayedLog(url) {
+          await delay();
+          await driver.get(url);
+          await delay();
+          // connect button
+          await driver.findElement(By.className('pv-s-profile-actions--connect')).click();
+          await delay();
+          // proceed to connect with a message
+          await driver.findElement(By.css('button[aria-label="Add a note"]')).click();
+          await delay();
+          // select the text area and write your message here
+          await driver.findElement(By.className('send-invite__custom-message')).sendKeys('Hey there, this is sent automatically using selenium webdriver');
+          await delay();
+          // send message button
+          await driver.findElements(By.css('button[aria-label="Send invitation"]'))
+          .then((e) => {
+            for(var key in e){
+                var element = e[key];
+                element.click();
+                sentTo.urls = sentTo.urls.concat(url)
+                // writing to the file after each successful posting of the message
+                fs.writeFile(path, JSON.stringify(sentTo, null, 4), (err) => {
+                    if (err) return console.log(err);
+                    console.log(`Added the url ${url} to the sent list`);
+                });            
+            }
+          })
+          .catch((e) => console.log(e));
+          await delay()
+        }
+        async function processArray(array) {
+          for (const item of array) {
+            await delayedLog(item);
+          }
+          console.log('Done!');
+        }
+        processArray(users)
+      }
+    })();
+}
