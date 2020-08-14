@@ -10,14 +10,14 @@ const path1 = require('path')
 let path = path1.join(__dirname, `../logs/facebook/groups/${argv.m}.json`)
 
 // Reading the message to be sent and storing it in a variable
-let message = null
+let msg = null
 
 fs.readFile(path1.join(__dirname ,`../content/${argv.m}.txt`), 'UTF-8', function(err, data) {
     if (err) {
         console.log(err);
         return;
     }
-    message = data;                
+    msg = data;                
 });
 
 //looking if the file with the messageid is already exists
@@ -73,7 +73,7 @@ if (fs.existsSync(path)) {
                 await driver.findElement(By.xpath('//div[text()="Write something..."]')).click();
                 // console.log('Selected textarea');
                 await delay();
-                await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys('Hi this is riku, for more details visit my website https://www.getriku.com/');
+                await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys(msg);
                 // console.log('Wrote post as: ', message);
                 await delay();
                 await driver.findElements(By.css('button[type="submit"][value="Post"]'))
@@ -188,7 +188,7 @@ else {
                 await driver.findElement(By.xpath('//div[text()="Write something..."]')).click();
                 // console.log('Selected textarea');
                 await delay();
-                await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys(message);
+                await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys(msg);
                 // console.log('Wrote post as: ', message);
                 await delay();
                 await driver.findElements(By.css('button[type="submit"][value="Post"]'))
