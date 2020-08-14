@@ -5,12 +5,12 @@ const argv = require('yargs').argv;
 const fs = require("fs");
 
 // creates path to the respective log files
-const path = `./logs/facebook/dms/${argv.m}.json`
+const path = `../logs/facebook/groups/${argv.m}.json`
 
 // Reading the message to be sent and storing it in a variable
 let message = null
 
-fs.readFile(`./content/${argv.m}.txt`, 'UTF-8', function(err, data) {
+fs.readFile(`../content/${argv.m}.txt`, 'UTF-8', function(err, data) {
     if (err) {
         console.log(err);
         return;
