@@ -1,20 +1,16 @@
 const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
-const { del } = require('selenium-webdriver/http');
 const argv = require('yargs').argv;
 
-const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
-
-// let's us pass a varialble from command line
-const argv = require('yargs').argv;
 const fs = require("fs");
 
 // creates path to the respective log files
-const path = `../logs/facebook/dms/${argv.m}.json`
+const path1 = require('path')
+let path = path1.join(__dirname, `../logs/facebook/dms/${argv.m}.json`)
 
 // Reading the message to be sent and storing it in a variable
 let message = null
 
-fs.readFile(`../content/${argv.m}.txt`, 'UTF-8', function(err, data) {
+fs.readFile(path1.join(__dirname ,`../content/${argv.m}.txt`), 'UTF-8', function(err, data) {
     if (err) {
         console.log(err);
         return;
@@ -126,7 +122,6 @@ if (fs.existsSync(path)) {
 
 else {
     console.log('Since that you\'re here it\'s understood that this message is being sent the first time, so it\'ll be sent to all your connections')
-    
     let data = {
         urls: []
     }

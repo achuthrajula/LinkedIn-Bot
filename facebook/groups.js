@@ -4,13 +4,15 @@ const {Builder, By, Key, until, WebDriver} = require('selenium-webdriver');
 const argv = require('yargs').argv;
 const fs = require("fs");
 
+
 // creates path to the respective log files
-const path = `../logs/facebook/groups/${argv.m}.json`
+const path1 = require('path')
+let path = path1.join(__dirname, `../logs/facebook/groups/${argv.m}.json`)
 
 // Reading the message to be sent and storing it in a variable
 let message = null
 
-fs.readFile(`../content/${argv.m}.txt`, 'UTF-8', function(err, data) {
+fs.readFile(path1.join(__dirname ,`../content/${argv.m}.txt`), 'UTF-8', function(err, data) {
     if (err) {
         console.log(err);
         return;
@@ -132,7 +134,6 @@ else {
     let data = {
         urls: []
     }
-
     fs.writeFileSync(path, JSON.stringify(data, null, 4), (err) => {
         if (err) return console.log(err);
         console.log('Created a log file');
