@@ -183,14 +183,18 @@ else {
                 await driver.findElement(By.css('textarea[aria-label="What\'s on your mind?"]')).sendKeys(message);
                 // console.log('Wrote post as: ', message);
                 await delay();
-                await driver.findElement(By.xpath('//button[@value="Send"]')).click()
-                .then(() => {
-                  sentTo.urls = sentTo.urls.concat(url)
-                  // writing to the file after each successful posting of the message
-                  fs.writeFile(path, JSON.stringify(sentTo, null, 4), (err) => {
-                      if (err) return console.log(err);
-                      console.log(`Added the url ${url} to the sent list`);
-                  });         
+                await driver.findElements(By.xpath('//button[@value="Send"]'))
+                .then((e) => {
+                    for(var key in e){
+                        var element = e[key];
+                        element.click();
+                        sentTo.urls = sentTo.urls.concat(url)
+                        // writing to the file after each successful posting of the message
+                        fs.writeFile(path, JSON.stringify(sentTo, null, 4), (err) => {
+                            if (err) return console.log(err);
+                            console.log(`Added the url ${url} to the sent list`);
+                        });            
+                    }
                 })
                 .catch((e) => console.log(e));
                 // console.log('Clicked the post button');

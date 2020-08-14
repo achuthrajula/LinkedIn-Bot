@@ -50,19 +50,19 @@ if (fs.existsSync(path)) {
         try {
             await driver.get('https://m.facebook.com/');
             // console.log('Visited Facebook Login Page');
-            await delay()
+            await delay();
             await driver.findElement(By.name('email')).sendKeys(argv.username);
             // console.log(`Entered username ${argv.username}`);
-            await delay()
+            await delay();
             await driver.findElement(By.name('pass')).sendKeys(argv.password);
             // console.log(`Entered password ${argv.password}`);
-            await delay()
+            await delay();
             await driver.findElement(By.name('login')).click();
             // console.log('Clicked the login button');
-            await delay()
+            await delay();
             await driver.get('https://m.facebook.com/groups_browse/your_groups/');
             // console.log('Browsed your facebook groups');
-            await delay()
+            await delay();
         } 
         finally {
             async function post (url) {
